@@ -1,0 +1,2102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquatic HeirMesh™ - Complete Visual Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #000000;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1a73e8 0%, #4caf50 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        header p {
+            font-size: 1.5em;
+            opacity: 0.95;
+        }
+        
+        .subtitle {
+            font-size: 1.1em;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background-color: #1a73e8;
+            padding: 20px 40px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05em;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255,255,255,0.2);
+        }
+        
+        .infographic-section {
+            padding: 40px;
+            border-bottom: 3px solid #e0e0e0;
+        }
+        
+        .infographic-section:last-child {
+            border-bottom: none;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #1a73e8;
+        }
+        
+        .section-header h2 {
+            font-size: 2.5em;
+            color: #1a73e8;
+            margin-bottom: 10px;
+        }
+        
+        .section-header p {
+            font-size: 1.2em;
+            color: #666;
+        }
+        
+        .infographic-wrapper {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        
+        .infographic-wrapper svg {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .section-description {
+            background-color: #f9f9f9;
+            padding: 25px;
+            margin: 30px 0;
+            border-left: 5px solid #1a73e8;
+            border-radius: 5px;
+        }
+        
+        .section-description h3 {
+            color: #1a73e8;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .section-description ul {
+            list-style-position: inside;
+            margin-left: 20px;
+        }
+        
+        .section-description li {
+            margin: 8px 0;
+            color: #333;
+        }
+        
+        footer {
+            background-color: #1a73e8;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        footer h3 {
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+        
+        footer p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #1a73e8;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1.5em;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: background-color 0.3s;
+        }
+        
+        .back-to-top:hover {
+            background-color: #4caf50;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+            
+            header p {
+                font-size: 1.2em;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .section-header h2 {
+                font-size: 2em;
+            }
+            
+            .infographic-section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header id="top">
+            <h1>🌊 Aquatic HeirMesh™</h1>
+            <p>Complete Visual Guide</p>
+            <p class="subtitle">36-Agent Multi-Agent System | Production-Grade AI Infrastructure</p>
+        </header>
+        
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#infographic-1">1. Architecture</a></li>
+                <li><a href="#infographic-2">2. Security</a></li>
+                <li><a href="#infographic-3">3. Budget</a></li>
+                <li><a href="#infographic-4">4. Visualizer</a></li>
+                <li><a href="#infographic-5">5. Implementation</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Infographic 1: Architecture -->
+        <section id="infographic-1" class="infographic-section">
+            <div class="section-header">
+                <h2>1️⃣ System Architecture Overview</h2>
+                <p>Complete 36-Agent Structure</p>
+            </div>
+            
+            <div class="section-description">
+                <h3>What You'll See:</h3>
+                <ul>
+                    <li>Meta-Coordinator orchestrating two 18-agent HeirMesh systems</li>
+                    <li>HeirMesh 1 (Production): Lead + 2 Groups with 8 &amp; 9 agents</li>
+                    <li>HeirMesh 2 (Validation): Lead + 2 Groups with 8 &amp; 8 agents</li>
+                    <li>Complete agent roster with model assignments (Opus 4.6, Opus 4.5, Sonnet 4.5, Haiku 4.5)</li>
+                    <li>3-level hierarchy: Top (Lead) → Middle (Groups) → Bottom (SubGroups)</li>
+                    <li>Detailed breakdown of each SubGroup's specialization</li>
+                </ul>
+            </div>
+            
+            <div class="infographic-wrapper">
+<svg viewBox="0 0 800 2400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="2400" fill="#ffffff"/>
+  
+  <!-- Title Section -->
+  <rect x="20" y="20" width="760" height="120" fill="#1a73e8" rx="10"/>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    🌊 Aquatic HeirMesh™
+  </text>
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle">
+    36-Agent Multi-Agent System Architecture
+  </text>
+  
+  <!-- Meta-Coordinator Section -->
+  <rect x="40" y="160" width="720" height="100" fill="#ffd700" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="400" y="195" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#000000" text-anchor="middle">
+    META-COORDINATOR
+  </text>
+  <text x="400" y="225" font-family="Arial, sans-serif" font-size="16" fill="#000000" text-anchor="middle">
+    Opus 4.6 | Routes Tasks Between Systems
+  </text>
+  <text x="400" y="248" font-family="Arial, sans-serif" font-size="14" fill="#000000" text-anchor="middle">
+    1 Agent | Strategic Orchestration
+  </text>
+  
+  <!-- Connection Lines -->
+  <line x1="400" y1="260" x2="250" y2="320" stroke="#000000" stroke-width="3"/>
+  <line x1="400" y1="260" x2="550" y2="320" stroke="#000000" stroke-width="3"/>
+  
+  <!-- HeirMesh 1 Section -->
+  <rect x="40" y="320" width="340" height="900" fill="#e3f2fd" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="50" y="330" width="320" height="60" fill="#1976d2" rx="5"/>
+  <text x="210" y="365" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    HEIRMESH 1: PRODUCTION
+  </text>
+  
+  <!-- Lead 1 -->
+  <rect x="70" y="410" width="280" height="80" fill="#4caf50" stroke="#000000" stroke-width="2" rx="5"/>
+  <text x="210" y="440" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#000000" text-anchor="middle">
+    LEAD 1: Aquatic Command
+  </text>
+  <text x="210" y="465" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    Model: Opus 4.6
+  </text>
+  <text x="210" y="483" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">
+    Strategic Coordination
+  </text>
+  
+  <!-- Group 1 -->
+  <rect x="70" y="510" width="280" height="320" fill="#ffffff" stroke="#000000" stroke-width="2" rx="5"/>
+  <rect x="80" y="520" width="260" height="35" fill="#2196f3" rx="3"/>
+  <text x="210" y="543" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    GROUP 1: Implementation Force
+  </text>
+  <text x="210" y="575" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    8 Agents Total
+  </text>
+  
+  <!-- SubGroup 1A -->
+  <rect x="85" y="590" width="120" height="220" fill="#bbdefb" stroke="#000000" stroke-width="1.5" rx="3"/>
+  <text x="145" y="610" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">
+    SubGroup 1A
+  </text>
+  <text x="145" y="627" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">
+    Core Dev (4)
+  </text>
+  <text x="145" y="650" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Smart Contract
+  </text>
+  <text x="145" y="667" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Opus 4.5)
+  </text>
+  <text x="145" y="687" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Backend Eng
+  </text>
+  <text x="145" y="704" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Opus 4.5)
+  </text>
+  <text x="145" y="724" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Frontend
+  </text>
+  <text x="145" y="741" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  <text x="145" y="761" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Integration
+  </text>
+  <text x="145" y="778" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Haiku 4.5)
+  </text>
+  
+  <!-- SubGroup 1B -->
+  <rect x="215" y="590" width="120" height="220" fill="#bbdefb" stroke="#000000" stroke-width="1.5" rx="3"/>
+  <text x="275" y="610" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">
+    SubGroup 1B
+  </text>
+  <text x="275" y="627" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">
+    Infrastructure (4)
+  </text>
+  <text x="275" y="650" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Cloud Arch
+  </text>
+  <text x="275" y="667" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Opus 4.5)
+  </text>
+  <text x="275" y="687" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Database
+  </text>
+  <text x="275" y="704" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  <text x="275" y="724" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • DevOps
+  </text>
+  <text x="275" y="741" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  <text x="275" y="761" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Performance
+  </text>
+  <text x="275" y="778" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Haiku 4.5)
+  </text>
+  
+  <!-- Group 2 -->
+  <rect x="70" y="850" width="280" height="350" fill="#ffffff" stroke="#000000" stroke-width="2" rx="5"/>
+  <rect x="80" y="860" width="260" height="35" fill="#ff9800" rx="3"/>
+  <text x="210" y="883" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    GROUP 2: QA &amp; Testing
+  </text>
+  <text x="210" y="915" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    9 Agents Total
+  </text>
+  
+  <!-- SubGroup 2A -->
+  <rect x="85" y="930" width="120" height="250" fill="#ffe0b2" stroke="#000000" stroke-width="1.5" rx="3"/>
+  <text x="145" y="950" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">
+    SubGroup 2A
+  </text>
+  <text x="145" y="967" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">
+    Testing (4)
+  </text>
+  <text x="145" y="990" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • QA Lead
+  </text>
+  <text x="145" y="1007" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Opus 4.6)
+  </text>
+  <text x="145" y="1027" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Integration
+  </text>
+  <text x="145" y="1044" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Opus 4.5)
+  </text>
+  <text x="145" y="1064" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • E2E Tester
+  </text>
+  <text x="145" y="1081" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  <text x="145" y="1101" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Load Test
+  </text>
+  <text x="145" y="1118" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Haiku 4.5)
+  </text>
+  
+  <!-- SubGroup 2B -->
+  <rect x="215" y="930" width="120" height="250" fill="#ffe0b2" stroke="#000000" stroke-width="1.5" rx="3"/>
+  <text x="275" y="950" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">
+    SubGroup 2B
+  </text>
+  <text x="275" y="967" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">
+    Docs (5)
+  </text>
+  <text x="275" y="990" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Tech Writer
+  </text>
+  <text x="275" y="1007" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Opus 4.5)
+  </text>
+  <text x="275" y="1027" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • API Docs
+  </text>
+  <text x="275" y="1044" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  <text x="275" y="1064" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • UX Writer
+  </text>
+  <text x="275" y="1081" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  <text x="275" y="1101" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Tutorial
+  </text>
+  <text x="275" y="1118" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  <text x="275" y="1138" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Metrics
+  </text>
+  <text x="275" y="1155" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Haiku 4.5)
+  </text>
+  
+  <!-- HeirMesh 2 Section -->
+  <rect x="420" y="320" width="340" height="900" fill="#fff3e0" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="430" y="330" width="320" height="60" fill="#e65100" rx="5"/>
+  <text x="590" y="365" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    HEIRMESH 2: VALIDATION
+  </text>
+  
+  <!-- Lead 2 -->
+  <rect x="450" y="410" width="280" height="80" fill="#f44336" stroke="#000000" stroke-width="2" rx="5"/>
+  <text x="590" y="440" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    LEAD 2: Security Command
+  </text>
+  <text x="590" y="465" font-family="Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">
+    Model: Opus 4.6
+  </text>
+  <text x="590" y="483" font-family="Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">
+    Security Coordination
+  </text>
+  
+  <!-- Group 3 -->
+  <rect x="450" y="510" width="280" height="320" fill="#ffffff" stroke="#000000" stroke-width="2" rx="5"/>
+  <rect x="460" y="520" width="260" height="35" fill="#d32f2f" rx="3"/>
+  <text x="590" y="543" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    GROUP 3: Security &amp; Audit
+  </text>
+  <text x="590" y="575" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    8 Agents Total
+  </text>
+  
+  <!-- SubGroup 3A -->
+  <rect x="465" y="590" width="120" height="220" fill="#ffcdd2" stroke="#000000" stroke-width="1.5" rx="3"/>
+  <text x="525" y="610" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">
+    SubGroup 3A
+  </text>
+  <text x="525" y="627" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">
+    Security (4)
+  </text>
+  <text x="525" y="650" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Auditor α
+  </text>
+  <text x="525" y="667" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Opus 4.6)
+  </text>
+  <text x="525" y="687" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Auditor β
+  </text>
+  <text x="525" y="704" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Opus 4.6)
+  </text>
+  <text x="525" y="724" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Pentest
+  </text>
+  <text x="525" y="741" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Opus 4.5)
+  </text>
+  <text x="525" y="761" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Vuln Scan
+  </text>
+  <text x="525" y="778" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  
+  <!-- SubGroup 3B -->
+  <rect x="595" y="590" width="120" height="220" fill="#ffcdd2" stroke="#000000" stroke-width="1.5" rx="3"/>
+  <text x="655" y="610" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">
+    SubGroup 3B
+  </text>
+  <text x="655" y="627" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">
+    Compliance (4)
+  </text>
+  <text x="655" y="650" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Compliance
+  </text>
+  <text x="655" y="667" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Opus 4.5)
+  </text>
+  <text x="655" y="687" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • GDPR
+  </text>
+  <text x="655" y="704" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  <text x="655" y="724" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • SOC2
+  </text>
+  <text x="655" y="741" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  <text x="655" y="761" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Crypto Reg
+  </text>
+  <text x="655" y="778" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Haiku 4.5)
+  </text>
+  
+  <!-- Group 4 -->
+  <rect x="450" y="850" width="280" height="350" fill="#ffffff" stroke="#000000" stroke-width="2" rx="5"/>
+  <rect x="460" y="860" width="260" height="35" fill="#7b1fa2" rx="3"/>
+  <text x="590" y="883" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    GROUP 4: Deployment Auto
+  </text>
+  <text x="590" y="915" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    8 Agents Total
+  </text>
+  
+  <!-- SubGroup 4A -->
+  <rect x="465" y="930" width="120" height="250" fill="#e1bee7" stroke="#000000" stroke-width="1.5" rx="3"/>
+  <text x="525" y="950" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">
+    SubGroup 4A
+  </text>
+  <text x="525" y="967" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">
+    Validation (4)
+  </text>
+  <text x="525" y="990" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Valid Lead
+  </text>
+  <text x="525" y="1007" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Opus 4.5)
+  </text>
+  <text x="525" y="1027" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Code Review
+  </text>
+  <text x="525" y="1044" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Opus 4.5)
+  </text>
+  <text x="525" y="1064" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Arch Valid
+  </text>
+  <text x="525" y="1081" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  <text x="525" y="1101" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Deploy Check
+  </text>
+  <text x="525" y="1118" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Haiku 4.5)
+  </text>
+  
+  <!-- SubGroup 4B -->
+  <rect x="595" y="930" width="120" height="250" fill="#e1bee7" stroke="#000000" stroke-width="1.5" rx="3"/>
+  <text x="655" y="950" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">
+    SubGroup 4B
+  </text>
+  <text x="655" y="967" font-family="Arial, sans-serif" font-size="11" fill="#000000" text-anchor="middle">
+    Auto Deploy (4)
+  </text>
+  <text x="655" y="990" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • GitHub Auto
+  </text>
+  <text x="655" y="1007" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  <text x="655" y="1027" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Vercel
+  </text>
+  <text x="655" y="1044" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  <text x="655" y="1064" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • Domain Mgr
+  </text>
+  <text x="655" y="1081" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Sonnet 4.5)
+  </text>
+  <text x="655" y="1101" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    • CI/CD
+  </text>
+  <text x="655" y="1118" font-family="Arial, sans-serif" font-size="10" fill="#000000" text-anchor="middle">
+    (Haiku 4.5)
+  </text>
+  
+  <!-- Summary Box -->
+  <rect x="40" y="1250" width="720" height="120" fill="#f5f5f5" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="400" y="1285" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000000" text-anchor="middle">
+    📊 SYSTEM SUMMARY
+  </text>
+  <text x="400" y="1315" font-family="Arial, sans-serif" font-size="15" fill="#000000" text-anchor="middle">
+    Total: 36 Agents (1 Meta + 2 Leads + 33 Workers)
+  </text>
+  <text x="400" y="1340" font-family="Arial, sans-serif" font-size="14" fill="#000000" text-anchor="middle">
+    Models: 13 Opus | 15 Sonnet | 7 Haiku
+  </text>
+  <text x="400" y="1360" font-family="Arial, sans-serif" font-size="14" fill="#000000" text-anchor="middle">
+    3-Level Hierarchy | Federated Mesh | Dynamic Adaptation
+  </text>
+  
+  <!-- Legend -->
+  <rect x="40" y="1400" width="720" height="180" fill="#ffffff" stroke="#000000" stroke-width="2" rx="8"/>
+  <text x="400" y="1430" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">
+    🔑 MODEL LEGEND
+  </text>
+  
+  <rect x="80" y="1450" width="150" height="35" fill="#ffd700" stroke="#000000" stroke-width="1.5" rx="3"/>
+  <text x="155" y="1473" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    Opus 4.6 (Top Tier)
+  </text>
+  
+  <rect x="250" y="1450" width="150" height="35" fill="#4caf50" stroke="#000000" stroke-width="1.5" rx="3"/>
+  <text x="325" y="1473" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    Opus 4.5 (Heavy)
+  </text>
+  
+  <rect x="420" y="1450" width="150" height="35" fill="#2196f3" stroke="#000000" stroke-width="1.5" rx="3"/>
+  <text x="495" y="1473" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    Sonnet 4.5 (Mid)
+  </text>
+  
+  <rect x="590" y="1450" width="150" height="35" fill="#9e9e9e" stroke="#000000" stroke-width="1.5" rx="3"/>
+  <text x="665" y="1473" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    Haiku 4.5 (Light)
+  </text>
+  
+  <text x="80" y="1510" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Opus 4.6: Meta-Coordinator, Security Leads (2 agents)
+  </text>
+  <text x="80" y="1530" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Opus 4.5: Lead Agents, Smart Contracts, Heavy Dev (11 agents)
+  </text>
+  <text x="80" y="1550" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Sonnet 4.5: Specialists, Testing, Documentation (15 agents)
+  </text>
+  <text x="80" y="1570" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Haiku 4.5: Coordination, Integration, Metrics (7 agents)
+  </text>
+  
+  <!-- Footer -->
+  <rect x="40" y="1610" width="720" height="60" fill="#1a73e8" rx="8"/>
+  <text x="400" y="1645" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Aquatic HeirMesh™ v2.0 | Designer: Aquatic | Powered by Anthropic Claude
+  </text>
+</svg>
+            </div>
+        </section>
+        
+        <!-- Infographic 2: Security Pipeline -->
+        <section id="infographic-2" class="infographic-section">
+            <div class="section-header">
+                <h2>2️⃣ Security Pipeline &amp; Deployment</h2>
+                <p>3-Tier Audit System with Auto-Deployment</p>
+            </div>
+            
+            <div class="section-description">
+                <h3>What You'll See:</h3>
+                <ul>
+                    <li>Complete security validation workflow from project completion to live deployment</li>
+                    <li>Primary Audit (G3-A1, Opus 4.6): Smart contract vulnerabilities, reentrancy, overflow</li>
+                    <li>Secondary Audit (G3-A2, Opus 4.6): API security, authentication, SQL injection, XSS</li>
+                    <li>Tertiary Audit (G3-A3, Opus 4.5): Penetration testing, OWASP Top 10, infrastructure</li>
+                    <li>Artifact compilation and README generation</li>
+                    <li>Automated GitHub repository creation and push</li>
+                    <li>Vercel deployment with domain purchasing and SSL configuration</li>
+                    <li>Timeline: 25-30 minutes from completion to production</li>
+                </ul>
+            </div>
+            
+            <div class="infographic-wrapper">
+<svg viewBox="0 0 800 2200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="2200" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <rect x="20" y="20" width="760" height="100" fill="#d32f2f" rx="10"/>
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    🔐 Security Pipeline &amp; Deployment
+  </text>
+  <text x="400" y="95" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">
+    3-Tier Audit System with Auto-Deployment
+  </text>
+  
+  <!-- Project Start -->
+  <rect x="250" y="150" width="300" height="70" fill="#4caf50" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="400" y="190" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    PROJECT COMPLETE
+  </text>
+  
+  <!-- Arrow -->
+  <path d="M 400 220 L 400 270" stroke="#000000" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Security Audit 1 -->
+  <rect x="100" y="270" width="600" height="150" fill="#ffebee" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="120" y="285" width="560" height="40" fill="#f44336" rx="5"/>
+  <text x="400" y="313" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    🛡️ SECURITY AUDIT 1: PRIMARY
+  </text>
+  
+  <text x="130" y="350" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000">
+    Agent: G3-A1 (Opus 4.6)
+  </text>
+  <text x="130" y="375" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Smart contract vulnerabilities
+  </text>
+  <text x="130" y="395" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Reentrancy attacks
+  </text>
+  <text x="450" y="375" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Integer overflow/underflow
+  </text>
+  <text x="450" y="395" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Access control issues
+  </text>
+  
+  <!-- Pass/Fail Decision 1 -->
+  <path d="M 400 420 L 400 480" stroke="#000000" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  <rect x="340" y="430" width="120" height="40" fill="#fff59d" stroke="#000000" stroke-width="2" rx="5"/>
+  <text x="400" y="455" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">
+    PASS?
+  </text>
+  
+  <!-- Security Audit 2 -->
+  <rect x="100" y="480" width="600" height="150" fill="#ffebee" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="120" y="495" width="560" height="40" fill="#f44336" rx="5"/>
+  <text x="400" y="523" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    🛡️ SECURITY AUDIT 2: SECONDARY
+  </text>
+  
+  <text x="130" y="560" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000">
+    Agent: G3-A2 (Opus 4.6)
+  </text>
+  <text x="130" y="585" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ API security validation
+  </text>
+  <text x="130" y="605" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Authentication/Authorization
+  </text>
+  <text x="450" y="585" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ SQL injection prevention
+  </text>
+  <text x="450" y="605" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ XSS vulnerabilities
+  </text>
+  
+  <!-- Pass/Fail Decision 2 -->
+  <path d="M 400 630 L 400 690" stroke="#000000" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  <rect x="340" y="640" width="120" height="40" fill="#fff59d" stroke="#000000" stroke-width="2" rx="5"/>
+  <text x="400" y="665" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">
+    PASS?
+  </text>
+  
+  <!-- Security Audit 3 -->
+  <rect x="100" y="690" width="600" height="150" fill="#ffebee" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="120" y="705" width="560" height="40" fill="#f44336" rx="5"/>
+  <text x="400" y="733" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    🛡️ SECURITY AUDIT 3: TERTIARY
+  </text>
+  
+  <text x="130" y="770" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000">
+    Agent: G3-A3 (Opus 4.5)
+  </text>
+  <text x="130" y="795" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Penetration testing
+  </text>
+  <text x="130" y="815" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ OWASP Top 10 validation
+  </text>
+  <text x="450" y="795" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Infrastructure security
+  </text>
+  <text x="450" y="815" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Exploit discovery
+  </text>
+  
+  <!-- Final Decision -->
+  <path d="M 400 840 L 400 900" stroke="#000000" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  <rect x="320" y="850" width="160" height="40" fill="#4caf50" stroke="#000000" stroke-width="2" rx="5"/>
+  <text x="400" y="877" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    ALL 3 PASSED ✓
+  </text>
+  
+  <!-- Artifact Compilation -->
+  <rect x="150" y="900" width="500" height="80" fill="#e3f2fd" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="400" y="935" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">
+    📦 ARTIFACT COMPILATION
+  </text>
+  <text x="400" y="960" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    Agent G4-B1 | Generate files, READMEs, documentation
+  </text>
+  
+  <path d="M 400 980 L 400 1020" stroke="#000000" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- GitHub Integration -->
+  <rect x="150" y="1020" width="500" height="140" fill="#f3e5f5" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="400" y="1055" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000000" text-anchor="middle">
+    🐙 GITHUB AUTO-DEPLOYMENT
+  </text>
+  <text x="180" y="1085" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Create repository
+  </text>
+  <text x="180" y="1105" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Initialize Git
+  </text>
+  <text x="180" y="1125" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Commit all files
+  </text>
+  <text x="180" y="1145" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Push to main branch
+  </text>
+  <text x="480" y="1085" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Add README.md
+  </text>
+  <text x="480" y="1105" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Create .gitignore
+  </text>
+  <text x="480" y="1125" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Tag release v1.0.0
+  </text>
+  <text x="480" y="1145" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Setup CI/CD
+  </text>
+  
+  <path d="M 400 1160 L 400 1200" stroke="#000000" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Vercel Deployment -->
+  <rect x="150" y="1200" width="500" height="140" fill="#e8f5e9" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="400" y="1235" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000000" text-anchor="middle">
+    ▲ VERCEL DEPLOYMENT
+  </text>
+  <text x="180" y="1265" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Create Vercel project
+  </text>
+  <text x="180" y="1285" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Link GitHub repo
+  </text>
+  <text x="180" y="1305" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Configure build
+  </text>
+  <text x="180" y="1325" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Deploy to production
+  </text>
+  <text x="480" y="1265" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Purchase domain
+  </text>
+  <text x="480" y="1285" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Configure DNS
+  </text>
+  <text x="480" y="1305" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ SSL certificate
+  </text>
+  <text x="480" y="1325" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Health check
+  </text>
+  
+  <path d="M 400 1340 L 400 1380" stroke="#000000" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Success -->
+  <rect x="200" y="1380" width="400" height="100" fill="#4caf50" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="400" y="1420" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    ✅ DEPLOYMENT SUCCESS
+  </text>
+  <text x="400" y="1450" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">
+    GitHub URL | Vercel URL | Custom Domain
+  </text>
+  <text x="400" y="1470" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">
+    Security Score: 9.5/10 | Ready for Production
+  </text>
+  
+  <!-- Timeline -->
+  <rect x="50" y="1520" width="700" height="120" fill="#f5f5f5" stroke="#000000" stroke-width="2" rx="8"/>
+  <text x="400" y="1555" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">
+    ⏱️ TYPICAL TIMELINE
+  </text>
+  <text x="80" y="1590" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    Security Audits 1-3: 15-20 minutes
+  </text>
+  <text x="80" y="1610" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    Artifact Compilation: 2-3 minutes
+  </text>
+  <text x="450" y="1590" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    GitHub Push: 1-2 minutes
+  </text>
+  <text x="450" y="1610" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    Vercel Deployment: 3-5 minutes
+  </text>
+  <text x="400" y="1630" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#1a73e8" text-anchor="middle">
+    Total: ~25-30 minutes from completion to live deployment
+  </text>
+  
+  <!-- Security Score Box -->
+  <rect x="50" y="1670" width="700" height="150" fill="#fff3e0" stroke="#000000" stroke-width="2" rx="8"/>
+  <text x="400" y="1705" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">
+    📊 SECURITY SCORING CRITERIA
+  </text>
+  <text x="80" y="1740" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • CRITICAL issues: Blocks deployment (0 allowed)
+  </text>
+  <text x="80" y="1760" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • HIGH issues: ≤ 2 allowed (must be documented)
+  </text>
+  <text x="80" y="1780" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • MEDIUM issues: ≤ 5 allowed (recommended fixes)
+  </text>
+  <text x="80" y="1800" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • LOW issues: Unlimited (logged for future improvement)
+  </text>
+  
+  <!-- Benefits -->
+  <rect x="50" y="1850" width="700" height="130" fill="#e8f5e9" stroke="#000000" stroke-width="2" rx="8"/>
+  <text x="400" y="1885" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">
+    ✨ BENEFITS OF 3-TIER AUDIT SYSTEM
+  </text>
+  <text x="80" y="1915" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Multiple perspectives catch 95% more vulnerabilities
+  </text>
+  <text x="80" y="1935" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ 3 independent Opus agents = highest confidence
+  </text>
+  <text x="80" y="1955" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Automated process saves 10+ hours per project
+  </text>
+  <text x="80" y="1975" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✓ Production-ready security without manual review
+  </text>
+  
+  <!-- Footer -->
+  <rect x="50" y="2010" width="700" height="60" fill="#1a73e8" rx="8"/>
+  <text x="400" y="2045" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Aquatic HeirMesh™ Security Pipeline | Powered by 3 Opus Security Agents
+  </text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#000000"/>
+    </marker>
+  </defs>
+</svg>
+            </div>
+        </section>
+        
+        <!-- Infographic 3: Budget Tiers -->
+        <section id="infographic-3" class="infographic-section">
+            <div class="section-header">
+                <h2>3️⃣ Budget Tiers &amp; Deployment Options</h2>
+                <p>$100 to $2000/month | Local vs Cloud</p>
+            </div>
+            
+            <div class="section-description">
+                <h3>What You'll See:</h3>
+                <ul>
+                    <li><strong>$100/month Tier:</strong> Development setup with local deployment, 18 agents, 3-5 projects/month</li>
+                    <li><strong>$500/month Tier:</strong> Professional setup with cloud or local, 36 agents, 15-20 projects/month</li>
+                    <li><strong>$1000/month Tier:</strong> Business setup with AWS c6i.2xlarge, 35-45 projects/month, 99.9% uptime</li>
+                    <li><strong>$2000/month Tier:</strong> Enterprise setup with AWS c6i.4xlarge, 70-100 projects/month, 99.99% uptime</li>
+                    <li>Detailed cost breakdowns (API, hosting, database, monitoring, GitHub, Vercel)</li>
+                    <li>Local vs Cloud deployment comparison with pros/cons</li>
+                    <li>ROI calculations showing revenue potential per tier</li>
+                    <li>Recommendations for scaling from development to enterprise</li>
+                </ul>
+            </div>
+            
+            <div class="infographic-wrapper">
+<svg viewBox="0 0 800 2400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="2400" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <rect x="20" y="20" width="760" height="100" fill="#4caf50" rx="10"/>
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    💰 Budget Tiers &amp; Deployment
+  </text>
+  <text x="400" y="95" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">
+    $100 to $2000/month | Local vs Cloud
+  </text>
+  
+  <!-- Tier 1: $100/month -->
+  <rect x="40" y="150" width="720" height="240" fill="#fff9c4" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="60" y="165" width="680" height="45" fill="#f57c00" rx="5"/>
+  <text x="400" y="195" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    💵 TIER 1: $100/MONTH - DEVELOPMENT
+  </text>
+  
+  <text x="80" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000">
+    Deployment: Local (Docker on your machine)
+  </text>
+  <text x="80" y="260" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Anthropic API: $80/month (~227k tokens/day)
+  </text>
+  <text x="80" y="280" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Electricity/ISP: $20/month
+  </text>
+  <text x="80" y="300" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Hardware: Use existing computer (8GB+ RAM)
+  </text>
+  <text x="80" y="320" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • GitHub: Free tier | Vercel: Hobby tier (free)
+  </text>
+  
+  <rect x="450" y="225" width="280" height="105" fill="#ffffff" stroke="#000000" stroke-width="2" rx="5"/>
+  <text x="590" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a73e8">
+    Capabilities:
+  </text>
+  <text x="470" y="270" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 3-5 projects/month
+  </text>
+  <text x="470" y="288" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 18 agents (single HeirMesh)
+  </text>
+  <text x="470" y="306" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Basic security audits
+  </text>
+  <text x="470" y="324" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Manual deployment assist
+  </text>
+  
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="13" font-style="italic" fill="#666666" text-anchor="middle">
+    Best for: Personal projects, MVPs, learning
+  </text>
+  
+  <!-- Tier 2: $500/month -->
+  <rect x="40" y="420" width="720" height="280" fill="#c8e6c9" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="60" y="435" width="680" height="45" fill="#388e3c" rx="5"/>
+  <text x="400" y="465" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    💵 TIER 2: $500/MONTH - PROFESSIONAL
+  </text>
+  
+  <text x="80" y="505" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000">
+    Deployment: Cloud (AWS t3.xlarge) or Local
+  </text>
+  <text x="80" y="530" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Anthropic API: $380/month (~1.1M tokens/day)
+  </text>
+  <text x="80" y="550" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Cloud Hosting: $80/month (AWS EC2 or local)
+  </text>
+  <text x="80" y="570" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • GitHub Team: $16/month
+  </text>
+  <text x="80" y="590" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Vercel Pro: $20/month
+  </text>
+  <text x="80" y="610" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Monitoring (Basic): $4/month
+  </text>
+  
+  <rect x="450" y="495" width="280" height="155" fill="#ffffff" stroke="#000000" stroke-width="2" rx="5"/>
+  <text x="590" y="520" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a73e8">
+    Capabilities:
+  </text>
+  <text x="470" y="540" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 15-20 projects/month
+  </text>
+  <text x="470" y="558" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 36 agents (dual HeirMesh)
+  </text>
+  <text x="470" y="576" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 3-audit security validation
+  </text>
+  <text x="470" y="594" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • GitHub auto-commits
+  </text>
+  <text x="470" y="612" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Vercel deployments
+  </text>
+  <text x="470" y="630" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Real-time visualizer
+  </text>
+  
+  <text x="400" y="670" font-family="Arial, sans-serif" font-size="13" font-style="italic" fill="#666666" text-anchor="middle">
+    Best for: Freelancers, small teams, production projects
+  </text>
+  
+  <!-- Tier 3: $1000/month -->
+  <rect x="40" y="730" width="720" height="300" fill="#bbdefb" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="60" y="745" width="680" height="45" fill="#1976d2" rx="5"/>
+  <text x="400" y="775" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    💵 TIER 3: $1000/MONTH - BUSINESS
+  </text>
+  
+  <text x="80" y="815" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000">
+    Deployment: Cloud (AWS c6i.2xlarge - 8 vCPU, 16GB RAM)
+  </text>
+  <text x="80" y="840" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Anthropic API: $750/month (~2.3M tokens/day)
+  </text>
+  <text x="80" y="860" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Cloud Hosting: $140/month (AWS EC2)
+  </text>
+  <text x="80" y="880" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Database (RDS): $50/month (PostgreSQL)
+  </text>
+  <text x="80" y="900" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • GitHub Enterprise: $21/month
+  </text>
+  <text x="80" y="920" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Vercel Pro: $20/month
+  </text>
+  <text x="80" y="940" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Monitoring (DataDog): $19/month
+  </text>
+  
+  <rect x="450" y="805" width="280" height="175" fill="#ffffff" stroke="#000000" stroke-width="2" rx="5"/>
+  <text x="590" y="830" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a73e8">
+    Capabilities:
+  </text>
+  <text x="470" y="850" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 35-45 projects/month
+  </text>
+  <text x="470" y="868" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 36 agents with redundancy
+  </text>
+  <text x="470" y="886" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 3-audit security + compliance
+  </text>
+  <text x="470" y="904" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Automated CI/CD pipeline
+  </text>
+  <text x="470" y="922" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Domain auto-purchase
+  </text>
+  <text x="470" y="940" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Advanced visualizer
+  </text>
+  <text x="470" y="958" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 99.9% uptime SLA
+  </text>
+  
+  <text x="400" y="1000" font-family="Arial, sans-serif" font-size="13" font-style="italic" fill="#666666" text-anchor="middle">
+    Best for: Growing startups, agencies, multiple clients
+  </text>
+  
+  <!-- Tier 4: $2000/month -->
+  <rect x="40" y="1060" width="720" height="320" fill="#e1bee7" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="60" y="1075" width="680" height="45" fill="#7b1fa2" rx="5"/>
+  <text x="400" y="1105" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    💵 TIER 4: $2000/MONTH - ENTERPRISE
+  </text>
+  
+  <text x="80" y="1145" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000">
+    Deployment: Cloud (AWS c6i.4xlarge - 16 vCPU, 32GB RAM)
+  </text>
+  <text x="80" y="1170" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Anthropic API: $1500/month (~4.5M tokens/day)
+  </text>
+  <text x="80" y="1190" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Cloud Hosting: $250/month (AWS EC2)
+  </text>
+  <text x="80" y="1210" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Database (RDS Multi-AZ): $120/month
+  </text>
+  <text x="80" y="1230" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Redis Cache: $80/month (ElastiCache)
+  </text>
+  <text x="80" y="1250" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • GitHub Enterprise: $21/month
+  </text>
+  <text x="80" y="1270" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Monitoring (DataDog Enterprise): $29/month
+  </text>
+  
+  <rect x="450" y="1135" width="280" height="195" fill="#ffffff" stroke="#000000" stroke-width="2" rx="5"/>
+  <text x="590" y="1160" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a73e8">
+    Capabilities:
+  </text>
+  <text x="470" y="1180" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 70-100 projects/month
+  </text>
+  <text x="470" y="1198" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 72 agents (dual 36-agent)
+  </text>
+  <text x="470" y="1216" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 5-audit + compliance
+  </text>
+  <text x="470" y="1234" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Multi-region deployment
+  </text>
+  <text x="470" y="1252" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Auto-scaling infrastructure
+  </text>
+  <text x="470" y="1270" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Advanced analytics
+  </text>
+  <text x="470" y="1288" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 99.99% uptime SLA
+  </text>
+  <text x="470" y="1306" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Priority support
+  </text>
+  
+  <text x="400" y="1350" font-family="Arial, sans-serif" font-size="13" font-style="italic" fill="#666666" text-anchor="middle">
+    Best for: Large organizations, enterprise clients, high-volume
+  </text>
+  
+  <!-- Deployment Comparison -->
+  <rect x="40" y="1410" width="720" height="480" fill="#f5f5f5" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="400" y="1450" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#000000" text-anchor="middle">
+    ⚖️ LOCAL vs CLOUD DEPLOYMENT
+  </text>
+  
+  <!-- Local Deployment -->
+  <rect x="70" y="1480" width="320" height="380" fill="#ffffff" stroke="#000000" stroke-width="2" rx="5"/>
+  <rect x="85" y="1495" width="290" height="40" fill="#ff9800" rx="3"/>
+  <text x="230" y="1522" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    🏠 LOCAL DEPLOYMENT
+  </text>
+  
+  <text x="100" y="1560" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4caf50">
+    ✓ PROS:
+  </text>
+  <text x="110" y="1580" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Zero infrastructure cost
+  </text>
+  <text x="110" y="1598" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Full data control
+  </text>
+  <text x="110" y="1616" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • No bandwidth charges
+  </text>
+  <text x="110" y="1634" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Easy development
+  </text>
+  <text x="110" y="1652" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Instant setup
+  </text>
+  
+  <text x="100" y="1685" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f44336">
+    ✗ CONS:
+  </text>
+  <text x="110" y="1705" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Limited by hardware
+  </text>
+  <text x="110" y="1723" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • ISP-dependent uptime
+  </text>
+  <text x="110" y="1741" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Higher latency
+  </text>
+  <text x="110" y="1759" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • No auto-scaling
+  </text>
+  <text x="110" y="1777" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Power/cooling costs
+  </text>
+  
+  <rect x="95" y="1800" width="260" height="40" fill="#fff9c4" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="225" y="1825" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">
+    Best for: $100-500/month
+  </text>
+  
+  <!-- Cloud Deployment -->
+  <rect x="410" y="1480" width="320" height="380" fill="#ffffff" stroke="#000000" stroke-width="2" rx="5"/>
+  <rect x="425" y="1495" width="290" height="40" fill="#2196f3" rx="3"/>
+  <text x="570" y="1522" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    ☁️ CLOUD DEPLOYMENT
+  </text>
+  
+  <text x="440" y="1560" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4caf50">
+    ✓ PROS:
+  </text>
+  <text x="450" y="1580" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 99.99% uptime SLA
+  </text>
+  <text x="450" y="1598" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Auto-scaling
+  </text>
+  <text x="450" y="1616" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Low latency (20-50ms)
+  </text>
+  <text x="450" y="1634" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Global distribution
+  </text>
+  <text x="450" y="1652" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Professional monitoring
+  </text>
+  
+  <text x="440" y="1685" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f44336">
+    ✗ CONS:
+  </text>
+  <text x="450" y="1705" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Monthly hosting fees
+  </text>
+  <text x="450" y="1723" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Bandwidth charges
+  </text>
+  <text x="450" y="1741" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Data transfer costs
+  </text>
+  <text x="450" y="1759" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Setup complexity
+  </text>
+  <text x="450" y="1777" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Vendor lock-in risk
+  </text>
+  
+  <rect x="435" y="1800" width="260" height="40" fill="#e3f2fd" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="565" y="1825" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">
+    Best for: $500-2000/month
+  </text>
+  
+  <!-- ROI Comparison -->
+  <rect x="40" y="1920" width="720" height="140" fill="#e8f5e9" stroke="#000000" stroke-width="2" rx="8"/>
+  <text x="400" y="1960" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">
+    💡 ROI COMPARISON
+  </text>
+  <text x="80" y="1990" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Local ($100/month): 3-5 projects × $2000 avg = $6k-10k revenue/month
+  </text>
+  <text x="80" y="2010" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Professional ($500/month): 15-20 projects × $2000 avg = $30k-40k revenue/month
+  </text>
+  <text x="80" y="2030" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Business ($1000/month): 35-45 projects × $2000 avg = $70k-90k revenue/month
+  </text>
+  <text x="80" y="2050" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Enterprise ($2000/month): 70-100 projects × $2000 avg = $140k-200k revenue/month
+  </text>
+  
+  <!-- Recommendation -->
+  <rect x="40" y="2090" width="720" height="100" fill="#fff9c4" stroke="#000000" stroke-width="2" rx="8"/>
+  <text x="400" y="2130" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#000000" text-anchor="middle">
+    💡 RECOMMENDATION
+  </text>
+  <text x="400" y="2155" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    Start with $100/month local deployment for learning and testing
+  </text>
+  <text x="400" y="2175" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    Scale to $500/month cloud when you have 5+ active clients
+  </text>
+  
+  <!-- Footer -->
+  <rect x="40" y="2220" width="720" height="60" fill="#1a73e8" rx="8"/>
+  <text x="400" y="2255" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Aquatic HeirMesh™ Budget Tiers | Flexible Deployment Options
+  </text>
+</svg>
+            </div>
+        </section>
+        
+        <!-- Infographic 4: Visualizer Dashboard -->
+        <section id="infographic-4" class="infographic-section">
+            <div class="section-header">
+                <h2>4️⃣ Dual Visualizer System</h2>
+                <p>Real-Time Monitoring &amp; Control Interface</p>
+            </div>
+            
+            <div class="section-description">
+                <h3>What You'll See:</h3>
+                <ul>
+                    <li><strong>Public Visualizer (Port 3000):</strong> Read-only monitoring dashboard</li>
+                    <li>System status dashboard showing operational health of all 36 agents</li>
+                    <li>Live agent activity visualization with color-coded status and progress bars</li>
+                    <li>Performance metrics: token usage, cost tracking, success rate, response time</li>
+                    <li>Live graphs and charts: 24-hour token usage, agent activity heatmap</li>
+                    <li><strong>Control Interface (Port 3001):</strong> Full system control panel</li>
+                    <li>Communication module to send messages directly to Lead1, Lead2, or Meta-Coordinator</li>
+                    <li>Control buttons: START, STOP, PAUSE, RESTART, EMERGENCY SHUTDOWN</li>
+                    <li>Budget management: set daily limits, token rate limits, alert thresholds</li>
+                    <li>Docker/Cloud metrics: CPU, RAM, network bandwidth per container</li>
+                    <li>Deployment approval system for GitHub and Vercel</li>
+                    <li>Both interfaces update every 5 seconds via WebSocket</li>
+                </ul>
+            </div>
+            
+            <div class="infographic-wrapper">
+<svg viewBox="0 0 800 2200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="2200" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <rect x="20" y="20" width="760" height="100" fill="#7b1fa2" rx="10"/>
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    📊 Dual Visualizer System
+  </text>
+  <text x="400" y="95" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">
+    Real-Time Monitoring &amp; Control Interface
+  </text>
+  
+  <!-- Overview -->
+  <rect x="50" y="150" width="700" height="120" fill="#f3e5f5" stroke="#000000" stroke-width="2" rx="8"/>
+  <text x="400" y="185" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000000" text-anchor="middle">
+    🎯 TWO SEPARATE INTERFACES
+  </text>
+  <text x="400" y="215" font-family="Arial, sans-serif" font-size="14" fill="#000000" text-anchor="middle">
+    Public Visualizer (Port 3000): Read-only system monitoring
+  </text>
+  <text x="400" y="238" font-family="Arial, sans-serif" font-size="14" fill="#000000" text-anchor="middle">
+    Control Interface (Port 3001): Full system control with commands
+  </text>
+  <text x="400" y="261" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#7b1fa2" text-anchor="middle">
+    Both update every 5 seconds with live agent activity
+  </text>
+  
+  <!-- Public Visualizer -->
+  <rect x="50" y="300" width="700" height="620" fill="#e3f2fd" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="70" y="315" width="660" height="50" fill="#2196f3" rx="5"/>
+  <text x="400" y="348" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    🌐 PUBLIC VISUALIZER (Port 3000)
+  </text>
+  
+  <!-- Feature List -->
+  <rect x="80" y="385" width="640" height="520" fill="#ffffff" stroke="#000000" stroke-width="2" rx="5"/>
+  
+  <!-- System Status -->
+  <rect x="95" y="400" width="610" height="60" fill="#f5f5f5" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="105" y="425" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    1. System Status Dashboard
+  </text>
+  <text x="120" y="445" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Real-time system health: 🟢 Operational / 🔴 Offline
+  </text>
+  
+  <!-- Agent Activity -->
+  <rect x="95" y="470" width="610" height="80" fill="#f5f5f5" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="105" y="495" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    2. Agent Activity Visualization
+  </text>
+  <text x="120" y="515" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Live status of all 36 agents with progress bars
+  </text>
+  <text x="120" y="533" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Current task for each agent
+  </text>
+  <text x="120" y="551" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Color-coded status: 🟢 Active | 🟡 Idle | 🔴 Error
+  </text>
+  
+  <!-- Metrics -->
+  <rect x="95" y="560" width="610" height="100" fill="#f5f5f5" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="105" y="585" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    3. Performance Metrics
+  </text>
+  <text x="120" y="605" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • API token usage (current / daily limit)
+  </text>
+  <text x="120" y="623" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Cost tracking ($ spent today / budget)
+  </text>
+  <text x="120" y="641" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Projects completed today
+  </text>
+  <text x="120" y="659" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Average response time
+  </text>
+  
+  <!-- Charts -->
+  <rect x="95" y="670" width="610" height="80" fill="#f5f5f5" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="105" y="695" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    4. Live Graphs &amp; Charts
+  </text>
+  <text x="120" y="715" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Token usage over 24 hours (line graph)
+  </text>
+  <text x="120" y="733" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Agent activity heatmap
+  </text>
+  
+  <!-- HeirMesh Status -->
+  <rect x="95" y="760" width="610" height="80" fill="#f5f5f5" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="105" y="785" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    5. HeirMesh System Status
+  </text>
+  <text x="120" y="805" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • HeirMesh 1 (Production): Lead + 2 Groups status
+  </text>
+  <text x="120" y="823" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • HeirMesh 2 (Validation): Lead + 2 Groups status
+  </text>
+  
+  <!-- Deployments -->
+  <rect x="95" y="850" width="610" height="60" fill="#f5f5f5" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="105" y="875" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    6. Deployment Tracking
+  </text>
+  <text x="120" y="895" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • GitHub commits &amp; Vercel deployments counter
+  </text>
+  
+  <!-- Access Info -->
+  <rect x="70" y="930" width="660" height="60" fill="#bbdefb" stroke="#000000" stroke-width="2" rx="5"/>
+  <text x="400" y="955" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">
+    🌐 Access: https://visualizer.your-domain.com
+  </text>
+  <text x="400" y="978" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    Read-only | Public access | Updates every 5 seconds
+  </text>
+  
+  <!-- Control Interface -->
+  <rect x="50" y="950" width="700" height="820" fill="#fff3e0" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="70" y="965" width="660" height="50" fill="#ff9800" rx="5"/>
+  <text x="400" y="998" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    🎮 CONTROL INTERFACE (Port 3001)
+  </text>
+  
+  <!-- All Public Features Plus -->
+  <rect x="80" y="1035" width="640" height="710" fill="#ffffff" stroke="#000000" stroke-width="2" rx="5"/>
+  
+  <text x="400" y="1065" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff9800" text-anchor="middle">
+    ALL PUBLIC FEATURES PLUS:
+  </text>
+  
+  <!-- Communication -->
+  <rect x="95" y="1080" width="610" height="100" fill="#fff9c4" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="105" y="1105" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    💬 Communication Module
+  </text>
+  <text x="120" y="1125" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Textbox to send messages/tasks directly to agents
+  </text>
+  <text x="120" y="1143" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Select recipient: Lead1, Lead2, Both Leads, Meta-Coordinator
+  </text>
+  <text x="120" y="1161" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Real-time response from agents
+  </text>
+  
+  <!-- Control Buttons -->
+  <rect x="95" y="1190" width="610" height="120" fill="#fff9c4" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="105" y="1215" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    🎛️ System Control Buttons
+  </text>
+  <text x="120" y="1235" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • ▶️ START SYSTEM: Initialize all agents
+  </text>
+  <text x="120" y="1253" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • ⏹️ STOP SYSTEM: Graceful shutdown
+  </text>
+  <text x="120" y="1271" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • ⏸️ PAUSE: Pause agent activity
+  </text>
+  <text x="120" y="1289" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • 🚨 EMERGENCY SHUTDOWN: Immediate halt (requires confirmation)
+  </text>
+  
+  <!-- Budget Controls -->
+  <rect x="95" y="1320" width="610" height="100" fill="#fff9c4" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="105" y="1345" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    💰 Budget Management
+  </text>
+  <text x="120" y="1365" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Set daily budget limit
+  </text>
+  <text x="120" y="1383" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Configure token rate limits (requests/min)
+  </text>
+  <text x="120" y="1401" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Alert thresholds for overspending
+  </text>
+  
+  <!-- Docker Metrics -->
+  <rect x="95" y="1430" width="610" height="100" fill="#fff9c4" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="105" y="1455" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    🐳 Docker/Cloud Metrics
+  </text>
+  <text x="120" y="1475" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • CPU usage per container
+  </text>
+  <text x="120" y="1493" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • RAM usage per container
+  </text>
+  <text x="120" y="1511" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Network bandwidth (in/out)
+  </text>
+  
+  <!-- Deployment Approval -->
+  <rect x="95" y="1540" width="610" height="80" fill="#fff9c4" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="105" y="1565" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    ✅ Deployment Approval
+  </text>
+  <text x="120" y="1585" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Review pending deployments
+  </text>
+  <text x="120" y="1603" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Approve/reject GitHub pushes and Vercel deployments
+  </text>
+  
+  <!-- Agent Management -->
+  <rect x="95" y="1630" width="610" height="100" fill="#fff9c4" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="105" y="1655" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    🔧 Agent Management
+  </text>
+  <text x="120" y="1675" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Restart individual agents
+  </text>
+  <text x="120" y="1693" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Rebalance workload between groups
+  </text>
+  <text x="120" y="1711" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • View detailed agent logs
+  </text>
+  
+  <!-- Access Info -->
+  <rect x="70" y="1760" width="660" height="60" fill="#ffe0b2" stroke="#000000" stroke-width="2" rx="5"/>
+  <text x="400" y="1785" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000" text-anchor="middle">
+    🔒 Access: https://control.your-domain.com
+  </text>
+  <text x="400" y="1808" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    Password-protected | Full control | Updates every 5 seconds
+  </text>
+  
+  <!-- Update Frequency -->
+  <rect x="50" y="1800" width="700" height="100" fill="#f5f5f5" stroke="#000000" stroke-width="2" rx="8"/>
+  <text x="400" y="1835" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">
+    ⚡ UPDATE FREQUENCY
+  </text>
+  <text x="400" y="1860" font-family="Arial, sans-serif" font-size="14" fill="#000000" text-anchor="middle">
+    Both visualizers poll the system every 5 seconds
+  </text>
+  <text x="400" y="1883" font-family="Arial, sans-serif" font-size="13" fill="#666666" text-anchor="middle">
+    WebSocket connection for instant updates | No page refresh needed
+  </text>
+  
+  <!-- Tech Stack -->
+  <rect x="50" y="1930" width="700" height="140" fill="#e3f2fd" stroke="#000000" stroke-width="2" rx="8"/>
+  <text x="400" y="1965" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">
+    🛠️ TECHNOLOGY STACK
+  </text>
+  <text x="80" y="1995" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Frontend: React 18 + Tailwind CSS
+  </text>
+  <text x="80" y="2015" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Backend: Node.js + Express
+  </text>
+  <text x="80" y="2035" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Real-time: Socket.io for WebSocket
+  </text>
+  <text x="80" y="2055" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Database: PostgreSQL + Redis cache
+  </text>
+  <text x="450" y="1995" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Charts: Chart.js + Recharts
+  </text>
+  <text x="450" y="2015" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Icons: Lucide React
+  </text>
+  <text x="450" y="2035" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Hosting: Docker containers
+  </text>
+  <text x="450" y="2055" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    • Reverse Proxy: Nginx
+  </text>
+  
+  <!-- Key Benefits -->
+  <rect x="50" y="2100" width="700" height="80" fill="#e8f5e9" stroke="#000000" stroke-width="2" rx="8"/>
+  <text x="400" y="2130" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#000000" text-anchor="middle">
+    ✨ KEY BENEFITS
+  </text>
+  <text x="400" y="2153" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    Monitor 36 agents in real-time | Control system remotely | Track costs live
+  </text>
+  <text x="400" y="2172" font-family="Arial, sans-serif" font-size="13" fill="#000000" text-anchor="middle">
+    Debug issues instantly | Optimize performance | Professional presentation
+  </text>
+  
+  <!-- Footer -->
+  <rect x="50" y="2110" width="700" height="60" fill="#7b1fa2" rx="8"/>
+  <text x="400" y="2145" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Aquatic HeirMesh™ Visualizer | Real-Time System Monitoring
+  </text>
+</svg>
+            </div>
+        </section>
+        
+        <!-- Infographic 5: Implementation Roadmap -->
+        <section id="infographic-5" class="infographic-section">
+            <div class="section-header">
+                <h2>5️⃣ Complete Implementation Roadmap</h2>
+                <p>From Zero to Production in 4 Phases</p>
+            </div>
+            
+            <div class="section-description">
+                <h3>What You'll See:</h3>
+                <ul>
+                    <li><strong>Phase 1 (30 minutes):</strong> Initial setup - clone repository, configure environment, install dependencies</li>
+                    <li><strong>Phase 2 (1 hour):</strong> Local testing - build Docker images, start system, health checks, access visualizers</li>
+                    <li><strong>Phase 3 (2 hours):</strong> Cloud deployment - provision AWS resources, SSH setup, configure DNS, enable SSL certificates</li>
+                    <li><strong>Phase 4 (15 minutes):</strong> First project - send task to Lead Agent, monitor progress, automatic deployment</li>
+                    <li>Complete command-line examples for each step</li>
+                    <li>Expected results and validation checks</li>
+                    <li>Success metrics: 28-minute project completion, 9.4/10 security score, $4.87 cost</li>
+                    <li>Quick reference guide with essential commands and documentation links</li>
+                </ul>
+            </div>
+            
+            <div class="infographic-wrapper">
+<svg viewBox="0 0 800 2600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="2600" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <rect x="20" y="20" width="760" height="100" fill="#1a73e8" rx="10"/>
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    🚀 Complete Implementation
+  </text>
+  <text x="400" y="95" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle">
+    Setup to Production in 4 Phases
+  </text>
+  
+  <!-- Phase 1 -->
+  <rect x="50" y="150" width="700" height="400" fill="#e3f2fd" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="70" y="165" width="660" height="50" fill="#2196f3" rx="5"/>
+  <text x="400" y="198" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    📋 PHASE 1: INITIAL SETUP (30 minutes)
+  </text>
+  
+  <text x="90" y="240" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 1: Clone Repository
+  </text>
+  <rect x="90" y="250" width="620" height="45" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="270" font-family="Courier New, monospace" font-size="11" fill="#000000">
+    git clone https://github.com/aquatic/heirmesh-36.git
+  </text>
+  <text x="110" y="285" font-family="Courier New, monospace" font-size="11" fill="#000000">
+    cd heirmesh-36
+  </text>
+  
+  <text x="90" y="320" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 2: Configure Environment
+  </text>
+  <rect x="90" y="330" width="620" height="80" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="350" font-family="Courier New, monospace" font-size="11" fill="#000000">
+    cp .env.example .env
+  </text>
+  <text x="110" y="365" font-family="Courier New, monospace" font-size="11" fill="#000000">
+    nano .env
+  </text>
+  <text x="110" y="385" font-family="Arial, sans-serif" font-size="11" fill="#666666">
+    Add your API keys:
+  </text>
+  <text x="110" y="400" font-family="Courier New, monospace" font-size="10" fill="#000000">
+    ANTHROPIC_API_KEY=sk-ant-api03-...
+  </text>
+  
+  <text x="90" y="435" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 3: Install Dependencies
+  </text>
+  <rect x="90" y="445" width="620" height="35" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="468" font-family="Courier New, monospace" font-size="11" fill="#000000">
+    ./scripts/install.sh
+  </text>
+  
+  <rect x="90" y="495" width="620" height="40" fill="#c8e6c9" stroke="#000000" stroke-width="2" rx="5"/>
+  <text x="400" y="520" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#000000" text-anchor="middle">
+    ✅ Result: Ready for testing
+  </text>
+  
+  <!-- Phase 2 -->
+  <rect x="50" y="580" width="700" height="420" fill="#fff9c4" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="70" y="595" width="660" height="50" fill="#ffa726" rx="5"/>
+  <text x="400" y="628" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    🧪 PHASE 2: LOCAL TESTING (1 hour)
+  </text>
+  
+  <text x="90" y="670" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 1: Build Docker Images
+  </text>
+  <rect x="90" y="680" width="620" height="35" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="703" font-family="Courier New, monospace" font-size="11" fill="#000000">
+    docker-compose build
+  </text>
+  
+  <text x="90" y="735" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 2: Start System
+  </text>
+  <rect x="90" y="745" width="620" height="35" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="768" font-family="Courier New, monospace" font-size="11" fill="#000000">
+    docker-compose up -d
+  </text>
+  
+  <text x="90" y="800" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 3: Health Check
+  </text>
+  <rect x="90" y="810" width="620" height="110" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="830" font-family="Courier New, monospace" font-size="11" fill="#000000">
+    ./scripts/health-check.sh
+  </text>
+  <text x="110" y="850" font-family="Arial, sans-serif" font-size="10" fill="#4caf50">
+    ✅ Meta-Coordinator: HEALTHY
+  </text>
+  <text x="110" y="865" font-family="Arial, sans-serif" font-size="10" fill="#4caf50">
+    ✅ HeirMesh 1: HEALTHY (18/18 agents)
+  </text>
+  <text x="110" y="880" font-family="Arial, sans-serif" font-size="10" fill="#4caf50">
+    ✅ HeirMesh 2: HEALTHY (17/17 agents)
+  </text>
+  <text x="110" y="895" font-family="Arial, sans-serif" font-size="10" fill="#4caf50">
+    ✅ Visualizers: HEALTHY (2/2)
+  </text>
+  <text x="110" y="910" font-family="Arial, sans-serif" font-size="10" fill="#4caf50">
+    ✅ Database: HEALTHY
+  </text>
+  
+  <text x="90" y="940" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 4: Access Visualizers
+  </text>
+  <rect x="90" y="950" width="620" height="35" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="970" font-family="Arial, sans-serif" font-size="12" fill="#1a73e8">
+    Public: http://localhost:3000 | Control: http://localhost:3001
+  </text>
+  
+  <!-- Phase 3 -->
+  <rect x="50" y="1030" width="700" height="620" fill="#e8f5e9" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="70" y="1045" width="660" height="50" fill="#4caf50" rx="5"/>
+  <text x="400" y="1078" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    ☁️ PHASE 3: CLOUD DEPLOYMENT (2 hours)
+  </text>
+  
+  <text x="90" y="1120" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 1: Provision Cloud Resources (AWS Example)
+  </text>
+  <rect x="90" y="1130" width="620" height="100" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="1150" font-family="Courier New, monospace" font-size="10" fill="#000000">
+    aws ec2 run-instances \
+  </text>
+  <text x="110" y="1163" font-family="Courier New, monospace" font-size="10" fill="#000000">
+      --image-id ami-0c55b159cbfafe1f0 \
+  </text>
+  <text x="110" y="1176" font-family="Courier New, monospace" font-size="10" fill="#000000">
+      --instance-type c6i.4xlarge \
+  </text>
+  <text x="110" y="1189" font-family="Courier New, monospace" font-size="10" fill="#000000">
+      --key-name aquatic-heirmesh
+  </text>
+  <text x="110" y="1207" font-family="Arial, sans-serif" font-size="10" fill="#666666">
+    Allocate Elastic IP for static address
+  </text>
+  
+  <text x="90" y="1250" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 2: SSH and Deploy
+  </text>
+  <rect x="90" y="1260" width="620" height="90" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="1280" font-family="Courier New, monospace" font-size="10" fill="#000000">
+    ssh -i aquatic-heirmesh.pem ubuntu@your-elastic-ip
+  </text>
+  <text x="110" y="1295" font-family="Courier New, monospace" font-size="10" fill="#000000">
+    curl -fsSL https://get.docker.com | sh
+  </text>
+  <text x="110" y="1310" font-family="Courier New, monospace" font-size="10" fill="#000000">
+    git clone https://github.com/aquatic/heirmesh-36.git
+  </text>
+  <text x="110" y="1325" font-family="Courier New, monospace" font-size="10" fill="#000000">
+    cd heirmesh-36 &amp;&amp; docker-compose -f prod.yml up -d
+  </text>
+  
+  <text x="90" y="1370" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 3: Configure DNS
+  </text>
+  <rect x="90" y="1380" width="620" height="60" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="1400" font-family="Arial, sans-serif" font-size="11" fill="#000000">
+    Point domains to Elastic IP:
+  </text>
+  <text x="110" y="1417" font-family="Courier New, monospace" font-size="10" fill="#1a73e8">
+    visualizer.your-domain.com → 54.123.45.67
+  </text>
+  <text x="110" y="1432" font-family="Courier New, monospace" font-size="10" fill="#1a73e8">
+    control.your-domain.com → 54.123.45.67
+  </text>
+  
+  <text x="90" y="1465" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 4: Enable SSL Certificates
+  </text>
+  <rect x="90" y="1475" width="620" height="75" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="1495" font-family="Courier New, monospace" font-size="10" fill="#000000">
+    sudo apt install certbot python3-certbot-nginx
+  </text>
+  <text x="110" y="1510" font-family="Courier New, monospace" font-size="10" fill="#000000">
+    sudo certbot --nginx -d visualizer.your-domain.com
+  </text>
+  <text x="110" y="1525" font-family="Courier New, monospace" font-size="10" fill="#000000">
+    sudo certbot --nginx -d control.your-domain.com
+  </text>
+  <text x="110" y="1543" font-family="Arial, sans-serif" font-size="10" fill="#4caf50">
+    ✅ Auto-renewal configured
+  </text>
+  
+  <text x="90" y="1575" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 5: Configure Integrations
+  </text>
+  <rect x="90" y="1585" width="620" height="50" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="1605" font-family="Arial, sans-serif" font-size="11" fill="#000000">
+    • Add GitHub OAuth token to .env
+  </text>
+  <text x="110" y="1622" font-family="Arial, sans-serif" font-size="11" fill="#000000">
+    • Add Vercel API token to .env
+  </text>
+  
+  <!-- Phase 4 -->
+  <rect x="50" y="1680" width="700" height="520" fill="#f3e5f5" stroke="#000000" stroke-width="3" rx="8"/>
+  <rect x="70" y="1695" width="660" height="50" fill="#7b1fa2" rx="5"/>
+  <text x="400" y="1728" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    🎯 PHASE 4: FIRST PROJECT (15 minutes)
+  </text>
+  
+  <text x="90" y="1770" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 1: Access Control Interface
+  </text>
+  <rect x="90" y="1780" width="620" height="45" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="1800" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    Open browser: https://control.your-domain.com
+  </text>
+  <text x="110" y="1817" font-family="Arial, sans-serif" font-size="11" fill="#666666">
+    (or http://localhost:3001 for local)
+  </text>
+  
+  <text x="90" y="1850" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 2: Send Task to Lead Agent
+  </text>
+  <rect x="90" y="1860" width="620" height="130" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="1880" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000">
+    Select: Lead Agent 1 (Production)
+  </text>
+  <text x="110" y="1900" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#000000">
+    Message:
+  </text>
+  <text x="120" y="1918" font-family="Arial, sans-serif" font-size="10" fill="#000000">
+    "Build a Solana NFT marketplace with:
+  </text>
+  <text x="120" y="1933" font-family="Arial, sans-serif" font-size="10" fill="#000000">
+    - Smart contract for minting and trading
+  </text>
+  <text x="120" y="1948" font-family="Arial, sans-serif" font-size="10" fill="#000000">
+    - Wallet integration (Phantom)
+  </text>
+  <text x="120" y="1963" font-family="Arial, sans-serif" font-size="10" fill="#000000">
+    - Admin dashboard with analytics
+  </text>
+  <text x="120" y="1978" font-family="Arial, sans-serif" font-size="10" fill="#000000">
+    - Deploy to Vercel with custom domain"
+  </text>
+  
+  <text x="90" y="2010" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 3: Monitor Progress
+  </text>
+  <rect x="90" y="2020" width="620" height="70" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="2040" font-family="Arial, sans-serif" font-size="11" fill="#000000">
+    Watch visualizer as:
+  </text>
+  <text x="120" y="2058" font-family="Arial, sans-serif" font-size="10" fill="#000000">
+    • HeirMesh 1 builds the application (10-12 min)
+  </text>
+  <text x="120" y="2073" font-family="Arial, sans-serif" font-size="10" fill="#000000">
+    • HeirMesh 2 runs 3 security audits (15-20 min)
+  </text>
+  
+  <text x="90" y="2105" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#000000">
+    Step 4: Automatic Deployment
+  </text>
+  <rect x="90" y="2115" width="620" height="70" fill="#ffffff" stroke="#000000" stroke-width="1" rx="3"/>
+  <text x="110" y="2135" font-family="Arial, sans-serif" font-size="11" fill="#000000">
+    System automatically:
+  </text>
+  <text x="120" y="2153" font-family="Arial, sans-serif" font-size="10" fill="#000000">
+    • Pushes code to GitHub (2-3 min)
+  </text>
+  <text x="120" y="2168" font-family="Arial, sans-serif" font-size="10" fill="#000000">
+    • Deploys to Vercel + purchases domain (3-5 min)
+  </text>
+  
+  <!-- Success -->
+  <rect x="50" y="2230" width="700" height="140" fill="#c8e6c9" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="400" y="2270" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#000000" text-anchor="middle">
+    🎉 PROJECT COMPLETE!
+  </text>
+  <text x="110" y="2305" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✅ GitHub Repository: https://github.com/aquatic/nft-marketplace
+  </text>
+  <text x="110" y="2325" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✅ Vercel URL: https://nft-marketplace.vercel.app
+  </text>
+  <text x="110" y="2345" font-family="Arial, sans-serif" font-size="13" fill="#000000">
+    ✅ Custom Domain: https://nft-marketplace-abc.com
+  </text>
+  <text x="400" y="2365" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1a73e8" text-anchor="middle">
+    Total Time: ~28 minutes | Security Score: 9.4/10 | Cost: $4.87
+  </text>
+  
+  <!-- Quick Reference -->
+  <rect x="50" y="2400" width="700" height="120" fill="#fff3e0" stroke="#000000" stroke-width="2" rx="8"/>
+  <text x="400" y="2435" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">
+    📚 QUICK REFERENCE
+  </text>
+  <text x="80" y="2460" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Documentation: https://docs.aquatic-heirmesh.com
+  </text>
+  <text x="80" y="2478" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • GitHub: https://github.com/aquatic/heirmesh-36
+  </text>
+  <text x="80" y="2496" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Anthropic Console: https://console.anthropic.com
+  </text>
+  <text x="450" y="2460" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Health Check: ./scripts/health-check.sh
+  </text>
+  <text x="450" y="2478" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • View Logs: docker-compose logs -f
+  </text>
+  <text x="450" y="2496" font-family="Arial, sans-serif" font-size="12" fill="#000000">
+    • Restart: docker-compose restart
+  </text>
+  
+  <!-- Footer -->
+  <rect x="50" y="2540" width="700" height="60" fill="#1a73e8" rx="8"/>
+  <text x="400" y="2575" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Aquatic HeirMesh™ Implementation Guide | From Zero to Production
+  </text>
+</svg>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+            <h3>🌊 Aquatic HeirMesh™</h3>
+            <p><strong>36-Agent Multi-Agent System</strong></p>
+            <p>Designer: Aquatic | Powered by Anthropic Claude</p>
+            <p>Version 2.0 | February 10, 2026</p>
+            <p style="margin-top: 20px; font-size: 0.95em;">
+                Complete production-grade AI infrastructure with automated security audits,<br>
+                GitHub integration, Vercel deployment, and real-time monitoring.
+            </p>
+            <p style="margin-top: 30px; font-size: 0.9em; opacity: 0.8;">
+                Built with: Anthropic Claude (Opus 4.6, Opus 4.5, Sonnet 4.5, Haiku 4.5)<br>
+                Docker | PostgreSQL | Redis | Node.js | React | WebSocket
+            </p>
+        </footer>
+    </div>
+    
+    <!-- Back to Top Button -->
+    <a href="#top" class="back-to-top" title="Back to Top">↑</a>
+    
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Show/hide back to top button based on scroll position
+        const backToTopButton = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.display = 'flex';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+        
+        // Initially hide the button
+        backToTopButton.style.display = 'none';
+    </script>
+</body>
+</html>
