@@ -1,20 +1,24 @@
 # 🌊 Aquatic HeirMesh™ - Visual Guide
 
-Complete interactive visual documentation for the **36-Agent Multi-Agent System** with production-grade AI infrastructure.
+Complete interactive visual documentation for the **Hierarchical-Federated-Mesh Multi-Agent System**, scaling from 36 to **1,164 agents** with production-grade AI infrastructure.
 
-![Version](https://img.shields.io/badge/version-2.0-blue)
+![Version](https://img.shields.io/badge/version-3.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Anthropic Claude](https://img.shields.io/badge/Powered%20by-Anthropic%20Claude-orange)
+![Agents](https://img.shields.io/badge/agents-1%2C164-purple)
 
 ## 📋 Overview
 
 Aquatic HeirMesh™ is a production-grade multi-agent AI system featuring:
 
-- **36 Agents**: 1 Meta-Coordinator + 2 HeirMesh systems (18 agents each)
-- **3-Tier Security**: Automated security audits with Opus 4.6 agents
+- **1,164 Agents**: 3 Council + 9 Federation Leaders + 36 Division Leads + 108 Squad Captains + 1,008 Specialists
+- **True HFM Architecture**: Hierarchical command, federated sovereignty, peer-to-peer mesh communication
+- **9 Sovereign Federations**: Core Engineering, Frontend, Infrastructure, Data, Security, QA, Documentation, Deployment, Operations
+- **Consensus Leadership**: 2-of-3 Council quorum replaces single-point-of-failure Meta-Coordinator
+- **Self-Healing**: Automatic failover, leader promotion, and dynamic specialist scaling
 - **Auto-Deployment**: GitHub + Vercel integration with domain purchasing
 - **Real-Time Monitoring**: Dual visualizer system (public + control)
-- **Complete Automation**: From project completion to live deployment in 25-30 minutes
+- **Claude Agent SDK**: Built on Anthropic's official agent orchestration framework
 
 ## 🚀 Quick Start
 
@@ -42,7 +46,7 @@ start index.html  # Windows
 
 ## 📖 What's Inside
 
-The visual guide includes 5 comprehensive infographics:
+The visual guide includes 6 comprehensive infographics:
 
 ### 1️⃣ System Architecture Overview
 - Complete 36-agent structure with hierarchical organization
@@ -78,6 +82,16 @@ The visual guide includes 5 comprehensive infographics:
 - **Phase 4 (15 min)**: First project - send task, monitor, auto-deploy
 - Command-line examples and validation checks
 
+### 6️⃣ 1,164-Agent Scaling Architecture (NEW)
+- Architecture evolution from 36-agent tree to 1,164-agent HFM
+- 5-tier hierarchy: Council -> Federations -> Divisions -> Squads -> Specialists
+- 9 sovereign federations with independent budgets and failure domains
+- 3 communication modes: Hierarchical (vertical), Federated (lateral), Mesh (peer-to-peer)
+- Fault tolerance with consensus leadership and self-healing
+- Updated budget tiers from $500/mo (36 agents) to $18,000/mo (1,164 agents)
+- Claude Agent SDK integration examples
+- v2.0 vs v3.0 metrics comparison
+
 ## 🛠️ Technology Stack
 
 - **Frontend**: HTML5, CSS3, JavaScript (vanilla)
@@ -94,14 +108,16 @@ The visual guide includes 5 comprehensive infographics:
 - ✅ **Professional Styling**: Clean, modern design with gradients
 - ✅ **Zero Dependencies**: No external libraries or frameworks required
 
-## 📊 System Capabilities (36-Agent System)
+## 📊 System Capabilities
 
-| Tier | Budget/Month | Agents | Projects/Month | Deployment |
-|------|--------------|--------|----------------|------------|
-| Development | $100 | 18 | 3-5 | Local |
-| Professional | $500 | 36 | 15-20 | Cloud/Local |
-| Business | $1000 | 36 | 35-45 | AWS c6i.2xlarge |
-| Enterprise | $2000 | 36+ | 70-100 | AWS c6i.4xlarge |
+### v3.0 Scaling Tiers (1,164-Agent Architecture)
+
+| Tier | Budget/Month | Agents | Federations | Projects/Month | Revenue Potential |
+|------|--------------|--------|-------------|----------------|-------------------|
+| Starter | $500 | 36 | 2 (v2.0 compat) | 15-20 | $30k-40k/mo |
+| Growth | $3,000 | 324 | 3 | 80-120 | $160k-240k/mo |
+| Scale | $8,000 | 648 | 6 | 200-300 | $400k-600k/mo |
+| Enterprise | $18,000 | 1,164 | 9 | 500-700+ | $1M-1.4M/mo |
 
 ## 🔐 Security Features
 
@@ -111,19 +127,13 @@ The visual guide includes 5 comprehensive infographics:
 - **Infrastructure Testing**: Penetration testing, OWASP Top 10
 - **Scoring System**: 0 critical, ≤2 high, ≤5 medium issues allowed
 
-## 📦 Model Distribution (36-Agent System)
+## 📦 Model Distribution (1,164-Agent System)
 
-- **5 × Opus 4.6**: Meta-Coordinator, Lead Agents, QA Lead, Security Auditors
-- **11 × Opus 4.5**: Architects, Developers, Security Specialists
-- **15 × Sonnet 4.5**: Specialists, Testing, Documentation
-- **7 × Haiku 4.5**: Coordination, Integration, Metrics
-
-## 💰 ROI Examples
-
-- **$100/month tier**: 3-5 projects × $2000 avg = $6k-10k revenue/month
-- **$500/month tier**: 15-20 projects × $2000 avg = $30k-40k revenue/month
-- **$1000/month tier**: 35-45 projects × $2000 avg = $70k-90k revenue/month
-- **$2000/month tier**: 70-100 projects × $2000 avg = $140k-200k revenue/month
+- **12 × Opus 4.6** (1%): Council of Coordinators + Federation Leaders
+- **36 × Opus 4.5** (3%): Division Leads
+- **108 × Sonnet 4.6** (9%): Squad Captains
+- **504 × Sonnet 4.5** (43%): Senior Specialists
+- **504 × Haiku 4.5** (43%): Junior Specialists
 
 ## 🌐 Deployment Options
 
@@ -179,7 +189,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - **Designer**: Aquatic
-- **Powered by**: Anthropic Claude (Opus 4.6, Opus 4.5, Sonnet 4.5, Haiku 4.5)
+- **Powered by**: Anthropic Claude (Opus 4.6, Opus 4.5, Sonnet 4.6, Sonnet 4.5, Haiku 4.5)
+- **Framework**: Claude Agent SDK
 - **Technology**: Docker, PostgreSQL, Redis, Node.js, React, WebSocket
 
 ## 📞 Contact & Support
@@ -189,8 +200,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Version**: 2.0  
-**Last Updated**: February 10, 2026  
+**Version**: 3.0
+**Last Updated**: March 13, 2026
 **Status**: Production Ready
 
 🌊 Built with passion by the Aquatic team

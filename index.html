@@ -214,7 +214,7 @@
         <header id="top">
             <h1>🌊 Aquatic HeirMesh™</h1>
             <p>Complete Visual Guide</p>
-            <p class="subtitle">36-Agent Multi-Agent System | Production-Grade AI Infrastructure</p>
+            <p class="subtitle">Hierarchical-Federated-Mesh Architecture | 36 to 1,164 Agents | Production-Grade AI Infrastructure</p>
         </header>
         
         <!-- Navigation -->
@@ -225,6 +225,7 @@
                 <li><a href="#infographic-3">3. Budget</a></li>
                 <li><a href="#infographic-4">4. Visualizer</a></li>
                 <li><a href="#infographic-5">5. Implementation</a></li>
+                <li><a href="#infographic-6">6. 1164-Agent Scale</a></li>
             </ul>
         </nav>
         
@@ -2050,19 +2051,618 @@
             </div>
         </section>
         
+        <!-- Infographic 6: 1164-Agent Scaling Architecture -->
+        <section id="infographic-6" class="infographic-section">
+            <div class="section-header">
+                <h2>6. Scaling to 1,164 Agents</h2>
+                <p>True Hierarchical-Federated-Mesh Architecture</p>
+            </div>
+
+            <div class="section-description">
+                <h3>What Changed &amp; Why:</h3>
+                <ul>
+                    <li>The original 36-agent design uses a strict tree topology - tasks flow top-down through a single Meta-Coordinator, creating a <strong>single point of failure</strong> and coordination bottleneck</li>
+                    <li>At 1,164 agents, a single coordinator managing everything is infeasible. The refined architecture introduces <strong>true federation</strong> (9 sovereign domains) and <strong>true mesh</strong> (peer-to-peer within federations)</li>
+                    <li><strong>Council of Coordinators (3)</strong> replaces the single Meta-Coordinator with 2-of-3 consensus for fault tolerance</li>
+                    <li><strong>9 Federations</strong> operate independently with their own budgets, security policies, and deployment pipelines</li>
+                    <li><strong>Mesh gateways</strong> enable cross-federation communication without hierarchical bottlenecks</li>
+                    <li>Claude Agent SDK integration for actual agent instantiation, tool use, and orchestration</li>
+                    <li><strong>Dynamic scaling</strong>: squads can spawn/retire specialists based on load</li>
+                </ul>
+            </div>
+
+            <div class="infographic-wrapper">
+<svg viewBox="0 0 900 4200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="4200" fill="#ffffff"/>
+
+  <!-- Title Section -->
+  <rect x="20" y="20" width="860" height="130" fill="#0d47a1" rx="10"/>
+  <text x="450" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Aquatic HeirMesh v3.0
+  </text>
+  <text x="450" y="90" font-family="Arial, sans-serif" font-size="22" fill="#bbdefb" text-anchor="middle">
+    1,164-Agent Hierarchical-Federated-Mesh Architecture
+  </text>
+  <text x="450" y="120" font-family="Arial, sans-serif" font-size="16" fill="#90caf9" text-anchor="middle">
+    Consensus Leadership | Sovereign Federations | Peer-to-Peer Mesh | Dynamic Scaling
+  </text>
+
+  <!-- ============================================ -->
+  <!-- SECTION 1: Architecture Evolution -->
+  <!-- ============================================ -->
+  <rect x="30" y="170" width="840" height="60" fill="#e8eaf6" rx="8"/>
+  <text x="450" y="208" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a237e" text-anchor="middle">
+    Architecture Evolution: 36 -> 1,164 Agents
+  </text>
+
+  <!-- Before: 36-Agent Tree -->
+  <rect x="40" y="250" width="390" height="280" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="8"/>
+  <rect x="50" y="260" width="370" height="40" fill="#c62828" rx="5"/>
+  <text x="235" y="286" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    BEFORE: 36-Agent Tree (v2.0)
+  </text>
+
+  <text x="65" y="320" font-family="Arial, sans-serif" font-size="13" fill="#000000">Single Meta-Coordinator (SPOF)</text>
+  <text x="65" y="340" font-family="Arial, sans-serif" font-size="12" fill="#666666">  -> HeirMesh 1: Production (18 agents)</text>
+  <text x="65" y="358" font-family="Arial, sans-serif" font-size="12" fill="#666666">  -> HeirMesh 2: Validation (18 agents)</text>
+  <text x="65" y="385" font-family="Arial, sans-serif" font-size="12" fill="#c62828" font-weight="bold">Problems:</text>
+  <text x="65" y="403" font-family="Arial, sans-serif" font-size="11" fill="#000000">x Single point of failure</text>
+  <text x="65" y="419" font-family="Arial, sans-serif" font-size="11" fill="#000000">x No peer-to-peer communication</text>
+  <text x="65" y="435" font-family="Arial, sans-serif" font-size="11" fill="#000000">x Static agent count, no scaling</text>
+  <text x="65" y="451" font-family="Arial, sans-serif" font-size="11" fill="#000000">x Sequential security bottleneck</text>
+  <text x="65" y="467" font-family="Arial, sans-serif" font-size="11" fill="#000000">x All traffic through hierarchy</text>
+  <text x="65" y="483" font-family="Arial, sans-serif" font-size="11" fill="#000000">x No fault tolerance / failover</text>
+  <text x="65" y="499" font-family="Arial, sans-serif" font-size="11" fill="#000000">x No federation sovereignty</text>
+  <text x="65" y="515" font-family="Arial, sans-serif" font-size="11" fill="#000000">x 3-level depth only</text>
+
+  <!-- Arrow -->
+  <polygon points="445,390 470,380 470,400" fill="#0d47a1"/>
+  <line x1="430" y1="390" x2="470" y2="390" stroke="#0d47a1" stroke-width="3"/>
+
+  <!-- After: 1164-Agent HFM -->
+  <rect x="480" y="250" width="390" height="280" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="8"/>
+  <rect x="490" y="260" width="370" height="40" fill="#2e7d32" rx="5"/>
+  <text x="675" y="286" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    AFTER: 1,164-Agent HFM (v3.0)
+  </text>
+
+  <text x="505" y="320" font-family="Arial, sans-serif" font-size="13" fill="#000000">Council of 3 (2-of-3 consensus)</text>
+  <text x="505" y="340" font-family="Arial, sans-serif" font-size="12" fill="#666666">  -> 9 Sovereign Federations</text>
+  <text x="505" y="358" font-family="Arial, sans-serif" font-size="12" fill="#666666">  -> 36 Divisions -> 108 Squads -> 1008 Agents</text>
+  <text x="505" y="385" font-family="Arial, sans-serif" font-size="12" fill="#2e7d32" font-weight="bold">Improvements:</text>
+  <text x="505" y="403" font-family="Arial, sans-serif" font-size="11" fill="#000000">+ Consensus leadership (no SPOF)</text>
+  <text x="505" y="419" font-family="Arial, sans-serif" font-size="11" fill="#000000">+ True peer-to-peer mesh within federations</text>
+  <text x="505" y="435" font-family="Arial, sans-serif" font-size="11" fill="#000000">+ Dynamic scaling per squad</text>
+  <text x="505" y="451" font-family="Arial, sans-serif" font-size="11" fill="#000000">+ Parallel security across federations</text>
+  <text x="505" y="467" font-family="Arial, sans-serif" font-size="11" fill="#000000">+ Gateway mesh for cross-federation</text>
+  <text x="505" y="483" font-family="Arial, sans-serif" font-size="11" fill="#000000">+ Self-healing with auto-promotion</text>
+  <text x="505" y="499" font-family="Arial, sans-serif" font-size="11" fill="#000000">+ Federation sovereignty + budgets</text>
+  <text x="505" y="515" font-family="Arial, sans-serif" font-size="11" fill="#000000">+ 5-tier depth with circuit breakers</text>
+
+  <!-- ============================================ -->
+  <!-- SECTION 2: 5-Tier Hierarchy -->
+  <!-- ============================================ -->
+  <rect x="30" y="560" width="840" height="60" fill="#e8eaf6" rx="8"/>
+  <text x="450" y="598" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a237e" text-anchor="middle">
+    5-Tier Agent Hierarchy (1,164 Total)
+  </text>
+
+  <!-- Tier 0: Council -->
+  <rect x="250" y="640" width="400" height="80" fill="#ffd600" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="450" y="670" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#000000" text-anchor="middle">
+    TIER 0: COUNCIL OF COORDINATORS
+  </text>
+  <text x="450" y="695" font-family="Arial, sans-serif" font-size="14" fill="#000000" text-anchor="middle">
+    3 Agents | Opus 4.6 | 2-of-3 Consensus Quorum
+  </text>
+
+  <!-- Lines from Council to Federations -->
+  <line x1="450" y1="720" x2="450" y2="745" stroke="#000000" stroke-width="2"/>
+
+  <!-- Tier 1: Federations -->
+  <rect x="100" y="745" width="700" height="80" fill="#ff6f00" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="450" y="775" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    TIER 1: FEDERATION LEADERS
+  </text>
+  <text x="450" y="800" font-family="Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="middle">
+    9 Agents | Opus 4.6 | Sovereign Domain Authority | Independent Budgets
+  </text>
+
+  <!-- Lines -->
+  <line x1="450" y1="825" x2="450" y2="850" stroke="#000000" stroke-width="2"/>
+
+  <!-- Tier 2: Divisions -->
+  <rect x="100" y="850" width="700" height="80" fill="#1565c0" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="450" y="880" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    TIER 2: DIVISION LEADS
+  </text>
+  <text x="450" y="905" font-family="Arial, sans-serif" font-size="14" fill="#bbdefb" text-anchor="middle">
+    36 Agents | Opus 4.5 | 4 per Federation | Tactical Coordination
+  </text>
+
+  <!-- Lines -->
+  <line x1="450" y1="930" x2="450" y2="955" stroke="#000000" stroke-width="2"/>
+
+  <!-- Tier 3: Squads -->
+  <rect x="100" y="955" width="700" height="80" fill="#2e7d32" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="450" y="985" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    TIER 3: SQUAD CAPTAINS
+  </text>
+  <text x="450" y="1010" font-family="Arial, sans-serif" font-size="14" fill="#c8e6c9" text-anchor="middle">
+    108 Agents | Sonnet 4.6 | 3 per Division | Team Management + Mesh Peers
+  </text>
+
+  <!-- Lines -->
+  <line x1="450" y1="1035" x2="450" y2="1060" stroke="#000000" stroke-width="2"/>
+
+  <!-- Tier 4: Specialists -->
+  <rect x="100" y="1060" width="700" height="100" fill="#7b1fa2" stroke="#000000" stroke-width="3" rx="8"/>
+  <text x="450" y="1095" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    TIER 4: SPECIALIST AGENTS
+  </text>
+  <text x="450" y="1120" font-family="Arial, sans-serif" font-size="14" fill="#e1bee7" text-anchor="middle">
+    1,008 Agents | Sonnet 4.5 (504) + Haiku 4.5 (504) | ~9-10 per Squad
+  </text>
+  <text x="450" y="1143" font-family="Arial, sans-serif" font-size="12" fill="#ce93d8" text-anchor="middle">
+    Dynamic scaling: squads spawn/retire specialists based on workload
+  </text>
+
+  <!-- Agent Count Summary Box -->
+  <rect x="100" y="1185" width="700" height="100" fill="#f5f5f5" stroke="#000000" stroke-width="2" rx="8"/>
+  <text x="450" y="1215" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#000000" text-anchor="middle">
+    Total Agent Distribution
+  </text>
+  <text x="150" y="1245" font-family="Arial, sans-serif" font-size="12" fill="#000000">Opus 4.6: 12 (1%)</text>
+  <text x="300" y="1245" font-family="Arial, sans-serif" font-size="12" fill="#000000">Opus 4.5: 36 (3%)</text>
+  <text x="460" y="1245" font-family="Arial, sans-serif" font-size="12" fill="#000000">Sonnet 4.6: 108 (9%)</text>
+  <text x="640" y="1245" font-family="Arial, sans-serif" font-size="12" fill="#000000">Sonnet 4.5: 504 (43%)</text>
+  <text x="350" y="1270" font-family="Arial, sans-serif" font-size="12" fill="#000000">Haiku 4.5: 504 (43%)</text>
+  <text x="580" y="1270" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0d47a1">TOTAL: 1,164 Agents</text>
+
+  <!-- ============================================ -->
+  <!-- SECTION 3: The 9 Federations -->
+  <!-- ============================================ -->
+  <rect x="30" y="1310" width="840" height="60" fill="#e8eaf6" rx="8"/>
+  <text x="450" y="1348" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a237e" text-anchor="middle">
+    The 9 Sovereign Federations
+  </text>
+
+  <!-- Federation Grid: 3x3 -->
+  <!-- Row 1 -->
+  <rect x="40" y="1390" width="265" height="190" fill="#e3f2fd" stroke="#1565c0" stroke-width="2" rx="8"/>
+  <rect x="50" y="1400" width="245" height="35" fill="#1565c0" rx="5"/>
+  <text x="172" y="1424" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    F1: Core Engineering
+  </text>
+  <text x="60" y="1455" font-family="Arial, sans-serif" font-size="11" fill="#000000">4 Divisions | 12 Squads | 112 Agents</text>
+  <text x="60" y="1475" font-family="Arial, sans-serif" font-size="10" fill="#666666">Smart contracts, backend, APIs</text>
+  <text x="60" y="1490" font-family="Arial, sans-serif" font-size="10" fill="#666666">System architecture, algorithms</text>
+  <text x="60" y="1505" font-family="Arial, sans-serif" font-size="10" fill="#666666">Blockchain, protocol design</text>
+  <text x="60" y="1525" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">Lead: Opus 4.6 | Budget: $2,400/mo</text>
+  <text x="60" y="1545" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">Mesh Gateways: 3 agents</text>
+  <text x="60" y="1565" font-family="Arial, sans-serif" font-size="10" fill="#666666">Internal mesh: full peer-to-peer</text>
+
+  <rect x="318" y="1390" width="265" height="190" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="8"/>
+  <rect x="328" y="1400" width="245" height="35" fill="#2e7d32" rx="5"/>
+  <text x="450" y="1424" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    F2: Frontend &amp; UX
+  </text>
+  <text x="338" y="1455" font-family="Arial, sans-serif" font-size="11" fill="#000000">4 Divisions | 12 Squads | 112 Agents</text>
+  <text x="338" y="1475" font-family="Arial, sans-serif" font-size="10" fill="#666666">UI development, design systems</text>
+  <text x="338" y="1490" font-family="Arial, sans-serif" font-size="10" fill="#666666">Accessibility, responsive design</text>
+  <text x="338" y="1505" font-family="Arial, sans-serif" font-size="10" fill="#666666">Animation, interaction patterns</text>
+  <text x="338" y="1525" font-family="Arial, sans-serif" font-size="10" fill="#2e7d32">Lead: Opus 4.6 | Budget: $1,800/mo</text>
+  <text x="338" y="1545" font-family="Arial, sans-serif" font-size="10" fill="#2e7d32">Mesh Gateways: 2 agents</text>
+  <text x="338" y="1565" font-family="Arial, sans-serif" font-size="10" fill="#666666">Internal mesh: full peer-to-peer</text>
+
+  <rect x="596" y="1390" width="265" height="190" fill="#fff3e0" stroke="#e65100" stroke-width="2" rx="8"/>
+  <rect x="606" y="1400" width="245" height="35" fill="#e65100" rx="5"/>
+  <text x="728" y="1424" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    F3: Infrastructure
+  </text>
+  <text x="616" y="1455" font-family="Arial, sans-serif" font-size="11" fill="#000000">4 Divisions | 12 Squads | 112 Agents</text>
+  <text x="616" y="1475" font-family="Arial, sans-serif" font-size="10" fill="#666666">Cloud, DevOps, containers</text>
+  <text x="616" y="1490" font-family="Arial, sans-serif" font-size="10" fill="#666666">Networking, load balancing</text>
+  <text x="616" y="1505" font-family="Arial, sans-serif" font-size="10" fill="#666666">Kubernetes, terraform, IaC</text>
+  <text x="616" y="1525" font-family="Arial, sans-serif" font-size="10" fill="#e65100">Lead: Opus 4.6 | Budget: $2,200/mo</text>
+  <text x="616" y="1545" font-family="Arial, sans-serif" font-size="10" fill="#e65100">Mesh Gateways: 3 agents</text>
+  <text x="616" y="1565" font-family="Arial, sans-serif" font-size="10" fill="#666666">Internal mesh: full peer-to-peer</text>
+
+  <!-- Row 2 -->
+  <rect x="40" y="1595" width="265" height="190" fill="#fce4ec" stroke="#c62828" stroke-width="2" rx="8"/>
+  <rect x="50" y="1605" width="245" height="35" fill="#c62828" rx="5"/>
+  <text x="172" y="1629" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    F4: Data &amp; Analytics
+  </text>
+  <text x="60" y="1660" font-family="Arial, sans-serif" font-size="11" fill="#000000">4 Divisions | 12 Squads | 112 Agents</text>
+  <text x="60" y="1680" font-family="Arial, sans-serif" font-size="10" fill="#666666">Databases, ETL pipelines</text>
+  <text x="60" y="1695" font-family="Arial, sans-serif" font-size="10" fill="#666666">Analytics, ML pipelines</text>
+  <text x="60" y="1710" font-family="Arial, sans-serif" font-size="10" fill="#666666">Data warehousing, streaming</text>
+  <text x="60" y="1730" font-family="Arial, sans-serif" font-size="10" fill="#c62828">Lead: Opus 4.6 | Budget: $2,000/mo</text>
+  <text x="60" y="1750" font-family="Arial, sans-serif" font-size="10" fill="#c62828">Mesh Gateways: 2 agents</text>
+  <text x="60" y="1770" font-family="Arial, sans-serif" font-size="10" fill="#666666">Internal mesh: full peer-to-peer</text>
+
+  <rect x="318" y="1595" width="265" height="190" fill="#ffebee" stroke="#b71c1c" stroke-width="2" rx="8"/>
+  <rect x="328" y="1605" width="245" height="35" fill="#b71c1c" rx="5"/>
+  <text x="450" y="1629" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    F5: Security
+  </text>
+  <text x="338" y="1660" font-family="Arial, sans-serif" font-size="11" fill="#000000">4 Divisions | 12 Squads | 148 Agents</text>
+  <text x="338" y="1680" font-family="Arial, sans-serif" font-size="10" fill="#666666">Auditing, penetration testing</text>
+  <text x="338" y="1695" font-family="Arial, sans-serif" font-size="10" fill="#666666">Compliance (GDPR, SOC2, PCI)</text>
+  <text x="338" y="1710" font-family="Arial, sans-serif" font-size="10" fill="#666666">Incident response, threat intel</text>
+  <text x="338" y="1730" font-family="Arial, sans-serif" font-size="10" fill="#b71c1c">Lead: Opus 4.6 | Budget: $2,800/mo</text>
+  <text x="338" y="1750" font-family="Arial, sans-serif" font-size="10" fill="#b71c1c">Mesh Gateways: 3 agents</text>
+  <text x="338" y="1770" font-family="Arial, sans-serif" font-size="10" fill="#666666">Highest Opus concentration</text>
+
+  <rect x="596" y="1595" width="265" height="190" fill="#e8eaf6" stroke="#283593" stroke-width="2" rx="8"/>
+  <rect x="606" y="1605" width="245" height="35" fill="#283593" rx="5"/>
+  <text x="728" y="1629" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    F6: Quality Assurance
+  </text>
+  <text x="616" y="1660" font-family="Arial, sans-serif" font-size="11" fill="#000000">4 Divisions | 12 Squads | 112 Agents</text>
+  <text x="616" y="1680" font-family="Arial, sans-serif" font-size="10" fill="#666666">Testing, validation, performance</text>
+  <text x="616" y="1695" font-family="Arial, sans-serif" font-size="10" fill="#666666">Chaos engineering, load testing</text>
+  <text x="616" y="1710" font-family="Arial, sans-serif" font-size="10" fill="#666666">E2E, integration, regression</text>
+  <text x="616" y="1730" font-family="Arial, sans-serif" font-size="10" fill="#283593">Lead: Opus 4.6 | Budget: $1,800/mo</text>
+  <text x="616" y="1750" font-family="Arial, sans-serif" font-size="10" fill="#283593">Mesh Gateways: 2 agents</text>
+  <text x="616" y="1770" font-family="Arial, sans-serif" font-size="10" fill="#666666">Internal mesh: full peer-to-peer</text>
+
+  <!-- Row 3 -->
+  <rect x="40" y="1800" width="265" height="190" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="2" rx="8"/>
+  <rect x="50" y="1810" width="245" height="35" fill="#6a1b9a" rx="5"/>
+  <text x="172" y="1834" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    F7: Documentation
+  </text>
+  <text x="60" y="1865" font-family="Arial, sans-serif" font-size="11" fill="#000000">4 Divisions | 12 Squads | 112 Agents</text>
+  <text x="60" y="1885" font-family="Arial, sans-serif" font-size="10" fill="#666666">Technical writing, API docs</text>
+  <text x="60" y="1900" font-family="Arial, sans-serif" font-size="10" fill="#666666">Tutorials, knowledge base</text>
+  <text x="60" y="1915" font-family="Arial, sans-serif" font-size="10" fill="#666666">Changelog, migration guides</text>
+  <text x="60" y="1935" font-family="Arial, sans-serif" font-size="10" fill="#6a1b9a">Lead: Opus 4.6 | Budget: $1,400/mo</text>
+  <text x="60" y="1955" font-family="Arial, sans-serif" font-size="10" fill="#6a1b9a">Mesh Gateways: 2 agents</text>
+  <text x="60" y="1975" font-family="Arial, sans-serif" font-size="10" fill="#666666">Highest Haiku concentration</text>
+
+  <rect x="318" y="1800" width="265" height="190" fill="#e0f2f1" stroke="#00695c" stroke-width="2" rx="8"/>
+  <rect x="328" y="1810" width="245" height="35" fill="#00695c" rx="5"/>
+  <text x="450" y="1834" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    F8: Deployment
+  </text>
+  <text x="338" y="1865" font-family="Arial, sans-serif" font-size="11" fill="#000000">4 Divisions | 12 Squads | 132 Agents</text>
+  <text x="338" y="1885" font-family="Arial, sans-serif" font-size="10" fill="#666666">CI/CD, release management</text>
+  <text x="338" y="1900" font-family="Arial, sans-serif" font-size="10" fill="#666666">Domain management, DNS</text>
+  <text x="338" y="1915" font-family="Arial, sans-serif" font-size="10" fill="#666666">Monitoring, observability</text>
+  <text x="338" y="1935" font-family="Arial, sans-serif" font-size="10" fill="#00695c">Lead: Opus 4.6 | Budget: $2,000/mo</text>
+  <text x="338" y="1955" font-family="Arial, sans-serif" font-size="10" fill="#00695c">Mesh Gateways: 3 agents</text>
+  <text x="338" y="1975" font-family="Arial, sans-serif" font-size="10" fill="#666666">GitHub + Vercel + AWS integration</text>
+
+  <rect x="596" y="1800" width="265" height="190" fill="#efebe9" stroke="#4e342e" stroke-width="2" rx="8"/>
+  <rect x="606" y="1810" width="245" height="35" fill="#4e342e" rx="5"/>
+  <text x="728" y="1834" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    F9: Operations (SRE)
+  </text>
+  <text x="616" y="1865" font-family="Arial, sans-serif" font-size="11" fill="#000000">4 Divisions | 12 Squads | 112 Agents</text>
+  <text x="616" y="1885" font-family="Arial, sans-serif" font-size="10" fill="#666666">Cost management, capacity planning</text>
+  <text x="616" y="1900" font-family="Arial, sans-serif" font-size="10" fill="#666666">Incident response, on-call</text>
+  <text x="616" y="1915" font-family="Arial, sans-serif" font-size="10" fill="#666666">SLO/SLA tracking, reliability</text>
+  <text x="616" y="1935" font-family="Arial, sans-serif" font-size="10" fill="#4e342e">Lead: Opus 4.6 | Budget: $1,680/mo</text>
+  <text x="616" y="1955" font-family="Arial, sans-serif" font-size="10" fill="#4e342e">Mesh Gateways: 2 agents</text>
+  <text x="616" y="1975" font-family="Arial, sans-serif" font-size="10" fill="#666666">Monitors all other federations</text>
+
+  <!-- ============================================ -->
+  <!-- SECTION 4: Communication Topology -->
+  <!-- ============================================ -->
+  <rect x="30" y="2020" width="840" height="60" fill="#e8eaf6" rx="8"/>
+  <text x="450" y="2058" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a237e" text-anchor="middle">
+    Communication Topology: Hierarchy + Federation + Mesh
+  </text>
+
+  <!-- Hierarchy Communication -->
+  <rect x="40" y="2100" width="265" height="280" fill="#fff9c4" stroke="#f57f17" stroke-width="2" rx="8"/>
+  <rect x="50" y="2110" width="245" height="35" fill="#f57f17" rx="5"/>
+  <text x="172" y="2134" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    HIERARCHICAL (Vertical)
+  </text>
+  <text x="60" y="2165" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">Command &amp; Control Flow</text>
+  <text x="60" y="2185" font-family="Arial, sans-serif" font-size="11" fill="#666666">Council -> Federation Leaders</text>
+  <text x="60" y="2200" font-family="Arial, sans-serif" font-size="11" fill="#666666">Fed Leaders -> Division Leads</text>
+  <text x="60" y="2215" font-family="Arial, sans-serif" font-size="11" fill="#666666">Div Leads -> Squad Captains</text>
+  <text x="60" y="2230" font-family="Arial, sans-serif" font-size="11" fill="#666666">Captains -> Specialists</text>
+  <text x="60" y="2260" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#f57f17">Used for:</text>
+  <text x="60" y="2278" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Task assignment &amp; delegation</text>
+  <text x="60" y="2293" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Policy propagation</text>
+  <text x="60" y="2308" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Budget allocation</text>
+  <text x="60" y="2323" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Escalation path</text>
+  <text x="60" y="2338" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Status reporting (bottom-up)</text>
+  <text x="60" y="2360" font-family="Arial, sans-serif" font-size="10" font-style="italic" fill="#666666">Max depth: 5 levels</text>
+
+  <!-- Federation Communication -->
+  <rect x="318" y="2100" width="265" height="280" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="8"/>
+  <rect x="328" y="2110" width="245" height="35" fill="#2e7d32" rx="5"/>
+  <text x="450" y="2134" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    FEDERATED (Lateral)
+  </text>
+  <text x="338" y="2165" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">Cross-Domain Cooperation</text>
+  <text x="338" y="2185" font-family="Arial, sans-serif" font-size="11" fill="#666666">Federation <-> Federation</text>
+  <text x="338" y="2200" font-family="Arial, sans-serif" font-size="11" fill="#666666">Via gateway agents (2-3 per fed)</text>
+  <text x="338" y="2215" font-family="Arial, sans-serif" font-size="11" fill="#666666">SLA contracts between federations</text>
+  <text x="338" y="2230" font-family="Arial, sans-serif" font-size="11" fill="#666666">Circuit breakers at boundaries</text>
+  <text x="338" y="2260" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2e7d32">Used for:</text>
+  <text x="338" y="2278" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Cross-domain task delegation</text>
+  <text x="338" y="2293" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Shared service discovery</text>
+  <text x="338" y="2308" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Security audit requests</text>
+  <text x="338" y="2323" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Deployment coordination</text>
+  <text x="338" y="2338" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Knowledge sharing</text>
+  <text x="338" y="2360" font-family="Arial, sans-serif" font-size="10" font-style="italic" fill="#666666">~22 gateway agents total</text>
+
+  <!-- Mesh Communication -->
+  <rect x="596" y="2100" width="265" height="280" fill="#e3f2fd" stroke="#1565c0" stroke-width="2" rx="8"/>
+  <rect x="606" y="2110" width="245" height="35" fill="#1565c0" rx="5"/>
+  <text x="728" y="2134" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    MESH (Peer-to-Peer)
+  </text>
+  <text x="616" y="2165" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000">Intra-Federation Collaboration</text>
+  <text x="616" y="2185" font-family="Arial, sans-serif" font-size="11" fill="#666666">Captain <-> Captain (same fed)</text>
+  <text x="616" y="2200" font-family="Arial, sans-serif" font-size="11" fill="#666666">Specialist <-> Specialist (same squad)</text>
+  <text x="616" y="2215" font-family="Arial, sans-serif" font-size="11" fill="#666666">No hierarchy needed for peers</text>
+  <text x="616" y="2230" font-family="Arial, sans-serif" font-size="11" fill="#666666">Pub/sub within squad topics</text>
+  <text x="616" y="2260" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1565c0">Used for:</text>
+  <text x="616" y="2278" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Peer code review</text>
+  <text x="616" y="2293" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Collaborative problem solving</text>
+  <text x="616" y="2308" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Load balancing within squads</text>
+  <text x="616" y="2323" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Knowledge transfer</text>
+  <text x="616" y="2338" font-family="Arial, sans-serif" font-size="10" fill="#000000">- Pair/mob programming</text>
+  <text x="616" y="2360" font-family="Arial, sans-serif" font-size="10" font-style="italic" fill="#666666">Partial mesh per federation</text>
+
+  <!-- ============================================ -->
+  <!-- SECTION 5: Fault Tolerance -->
+  <!-- ============================================ -->
+  <rect x="30" y="2410" width="840" height="60" fill="#e8eaf6" rx="8"/>
+  <text x="450" y="2448" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a237e" text-anchor="middle">
+    Fault Tolerance &amp; Self-Healing
+  </text>
+
+  <rect x="40" y="2490" width="400" height="300" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="8"/>
+  <rect x="50" y="2500" width="380" height="35" fill="#2e7d32" rx="5"/>
+  <text x="240" y="2524" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Self-Healing Mechanisms
+  </text>
+  <text x="60" y="2560" font-family="Arial, sans-serif" font-size="12" fill="#000000">Council member fails:</text>
+  <text x="70" y="2578" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> Remaining 2 maintain quorum</text>
+  <text x="70" y="2594" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> Federation Leader promoted to Council</text>
+  <text x="60" y="2618" font-family="Arial, sans-serif" font-size="12" fill="#000000">Federation Leader fails:</text>
+  <text x="70" y="2636" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> Senior Division Lead auto-promoted</text>
+  <text x="70" y="2652" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> Council notified, new election</text>
+  <text x="60" y="2676" font-family="Arial, sans-serif" font-size="12" fill="#000000">Squad Captain fails:</text>
+  <text x="70" y="2694" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> Division Lead promotes top specialist</text>
+  <text x="70" y="2710" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> New specialist spawned to backfill</text>
+  <text x="60" y="2734" font-family="Arial, sans-serif" font-size="12" fill="#000000">Specialist fails:</text>
+  <text x="70" y="2752" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> Squad Captain reassigns work</text>
+  <text x="70" y="2768" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> New specialist spawned if needed</text>
+
+  <rect x="460" y="2490" width="400" height="300" fill="#fff3e0" stroke="#e65100" stroke-width="2" rx="8"/>
+  <rect x="470" y="2500" width="380" height="35" fill="#e65100" rx="5"/>
+  <text x="660" y="2524" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Circuit Breakers &amp; Isolation
+  </text>
+  <text x="480" y="2560" font-family="Arial, sans-serif" font-size="12" fill="#000000">Federation Boundaries:</text>
+  <text x="490" y="2578" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> Each federation has independent failure domain</text>
+  <text x="490" y="2594" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> Failure in F1 doesn't cascade to F2-F9</text>
+  <text x="480" y="2618" font-family="Arial, sans-serif" font-size="12" fill="#000000">Gateway Circuit Breakers:</text>
+  <text x="490" y="2636" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> Cross-fed requests have timeout limits</text>
+  <text x="490" y="2652" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> After 3 failures: circuit opens (5 min cooldown)</text>
+  <text x="480" y="2676" font-family="Arial, sans-serif" font-size="12" fill="#000000">Budget Isolation:</text>
+  <text x="490" y="2694" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> Each federation has token budget caps</text>
+  <text x="490" y="2710" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> Runaway costs can't drain other feds</text>
+  <text x="480" y="2734" font-family="Arial, sans-serif" font-size="12" fill="#000000">Blast Radius Control:</text>
+  <text x="490" y="2752" font-family="Arial, sans-serif" font-size="11" fill="#666666">-> Max impact of any single failure:</text>
+  <text x="490" y="2768" font-family="Arial, sans-serif" font-size="11" fill="#666666">   1 federation (~130 agents) not all 1,164</text>
+
+  <!-- ============================================ -->
+  <!-- SECTION 6: Scaling Tiers (Updated) -->
+  <!-- ============================================ -->
+  <rect x="30" y="2820" width="840" height="60" fill="#e8eaf6" rx="8"/>
+  <text x="450" y="2858" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a237e" text-anchor="middle">
+    Updated Budget Tiers (1,164-Agent Scale)
+  </text>
+
+  <!-- Starter -->
+  <rect x="40" y="2900" width="400" height="160" fill="#fff9c4" stroke="#f57f17" stroke-width="2" rx="8"/>
+  <rect x="50" y="2910" width="380" height="30" fill="#f57f17" rx="5"/>
+  <text x="240" y="2932" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    STARTER: $500/mo (36 agents)
+  </text>
+  <text x="60" y="2960" font-family="Arial, sans-serif" font-size="11" fill="#000000">Original v2.0 architecture</text>
+  <text x="60" y="2978" font-family="Arial, sans-serif" font-size="11" fill="#000000">1 Meta + 2 HeirMesh systems</text>
+  <text x="60" y="2996" font-family="Arial, sans-serif" font-size="11" fill="#000000">15-20 projects/month</text>
+  <text x="60" y="3014" font-family="Arial, sans-serif" font-size="11" fill="#000000">Local or single cloud instance</text>
+  <text x="60" y="3032" font-family="Arial, sans-serif" font-size="11" fill="#000000">Sequential security audits</text>
+  <text x="60" y="3050" font-family="Arial, sans-serif" font-size="11" fill="#1a73e8">ROI: $30k-40k revenue/month</text>
+
+  <!-- Growth -->
+  <rect x="460" y="2900" width="400" height="160" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2" rx="8"/>
+  <rect x="470" y="2910" width="380" height="30" fill="#2e7d32" rx="5"/>
+  <text x="660" y="2932" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    GROWTH: $3,000/mo (324 agents)
+  </text>
+  <text x="480" y="2960" font-family="Arial, sans-serif" font-size="11" fill="#000000">Council (3) + 3 Federations</text>
+  <text x="480" y="2978" font-family="Arial, sans-serif" font-size="11" fill="#000000">Core Eng + Security + Deployment</text>
+  <text x="480" y="2996" font-family="Arial, sans-serif" font-size="11" fill="#000000">80-120 projects/month</text>
+  <text x="480" y="3014" font-family="Arial, sans-serif" font-size="11" fill="#000000">Multi-instance cloud deployment</text>
+  <text x="480" y="3032" font-family="Arial, sans-serif" font-size="11" fill="#000000">Parallel security + mesh comms</text>
+  <text x="480" y="3050" font-family="Arial, sans-serif" font-size="11" fill="#1a73e8">ROI: $160k-240k revenue/month</text>
+
+  <!-- Scale -->
+  <rect x="40" y="3080" width="400" height="160" fill="#bbdefb" stroke="#1565c0" stroke-width="2" rx="8"/>
+  <rect x="50" y="3090" width="380" height="30" fill="#1565c0" rx="5"/>
+  <text x="240" y="3112" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    SCALE: $8,000/mo (648 agents)
+  </text>
+  <text x="60" y="3140" font-family="Arial, sans-serif" font-size="11" fill="#000000">Council (3) + 6 Federations</text>
+  <text x="60" y="3158" font-family="Arial, sans-serif" font-size="11" fill="#000000">All core + QA + Docs + Data</text>
+  <text x="60" y="3176" font-family="Arial, sans-serif" font-size="11" fill="#000000">200-300 projects/month</text>
+  <text x="60" y="3194" font-family="Arial, sans-serif" font-size="11" fill="#000000">Multi-region with auto-scaling</text>
+  <text x="60" y="3212" font-family="Arial, sans-serif" font-size="11" fill="#000000">Full mesh + circuit breakers</text>
+  <text x="60" y="3230" font-family="Arial, sans-serif" font-size="11" fill="#1a73e8">ROI: $400k-600k revenue/month</text>
+
+  <!-- Enterprise -->
+  <rect x="460" y="3080" width="400" height="160" fill="#e1bee7" stroke="#6a1b9a" stroke-width="2" rx="8"/>
+  <rect x="470" y="3090" width="380" height="30" fill="#6a1b9a" rx="5"/>
+  <text x="660" y="3112" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    ENTERPRISE: $18,000/mo (1,164 agents)
+  </text>
+  <text x="480" y="3140" font-family="Arial, sans-serif" font-size="11" fill="#000000">Council (3) + All 9 Federations</text>
+  <text x="480" y="3158" font-family="Arial, sans-serif" font-size="11" fill="#000000">Full HFM architecture</text>
+  <text x="480" y="3176" font-family="Arial, sans-serif" font-size="11" fill="#000000">500-700+ projects/month</text>
+  <text x="480" y="3194" font-family="Arial, sans-serif" font-size="11" fill="#000000">Global multi-region, 99.99% SLA</text>
+  <text x="480" y="3212" font-family="Arial, sans-serif" font-size="11" fill="#000000">Full self-healing + dynamic scaling</text>
+  <text x="480" y="3230" font-family="Arial, sans-serif" font-size="11" fill="#1a73e8">ROI: $1M-1.4M revenue/month</text>
+
+  <!-- ============================================ -->
+  <!-- SECTION 7: Claude Agent SDK Integration -->
+  <!-- ============================================ -->
+  <rect x="30" y="3270" width="840" height="60" fill="#e8eaf6" rx="8"/>
+  <text x="450" y="3308" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a237e" text-anchor="middle">
+    Claude Agent SDK Integration
+  </text>
+
+  <rect x="40" y="3350" width="820" height="320" fill="#f5f5f5" stroke="#000000" stroke-width="2" rx="8"/>
+  <text x="60" y="3380" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#000000">How Agents Are Actually Instantiated (Claude Agent SDK)</text>
+
+  <rect x="60" y="3395" width="780" height="255" fill="#263238" rx="5"/>
+  <text x="80" y="3420" font-family="Courier New, monospace" font-size="11" fill="#80cbc4">// Council member instantiation</text>
+  <text x="80" y="3438" font-family="Courier New, monospace" font-size="11" fill="#ef9a9a">import</text>
+  <text x="125" y="3438" font-family="Courier New, monospace" font-size="11" fill="#ffffff"> { Agent } </text>
+  <text x="215" y="3438" font-family="Courier New, monospace" font-size="11" fill="#ef9a9a">from</text>
+  <text x="250" y="3438" font-family="Courier New, monospace" font-size="11" fill="#a5d6a7"> 'claude-agent-sdk';</text>
+
+  <text x="80" y="3464" font-family="Courier New, monospace" font-size="11" fill="#ef9a9a">const</text>
+  <text x="115" y="3464" font-family="Courier New, monospace" font-size="11" fill="#90caf9"> councilMember</text>
+  <text x="230" y="3464" font-family="Courier New, monospace" font-size="11" fill="#ffffff"> = </text>
+  <text x="245" y="3464" font-family="Courier New, monospace" font-size="11" fill="#ef9a9a">new</text>
+  <text x="275" y="3464" font-family="Courier New, monospace" font-size="11" fill="#80cbc4"> Agent</text>
+  <text x="315" y="3464" font-family="Courier New, monospace" font-size="11" fill="#ffffff">({</text>
+
+  <text x="100" y="3482" font-family="Courier New, monospace" font-size="11" fill="#90caf9">model:</text>
+  <text x="155" y="3482" font-family="Courier New, monospace" font-size="11" fill="#a5d6a7"> 'claude-opus-4-6',</text>
+  <text x="100" y="3500" font-family="Courier New, monospace" font-size="11" fill="#90caf9">role:</text>
+  <text x="140" y="3500" font-family="Courier New, monospace" font-size="11" fill="#a5d6a7"> 'council-coordinator',</text>
+  <text x="100" y="3518" font-family="Courier New, monospace" font-size="11" fill="#90caf9">federation:</text>
+  <text x="185" y="3518" font-family="Courier New, monospace" font-size="11" fill="#a5d6a7"> 'global',</text>
+  <text x="100" y="3536" font-family="Courier New, monospace" font-size="11" fill="#90caf9">tools:</text>
+  <text x="145" y="3536" font-family="Courier New, monospace" font-size="11" fill="#ffffff"> [taskRouter, consensusVoter,</text>
+  <text x="120" y="3554" font-family="Courier New, monospace" font-size="11" fill="#ffffff">  budgetAllocator, federationManager],</text>
+  <text x="100" y="3572" font-family="Courier New, monospace" font-size="11" fill="#90caf9">mesh:</text>
+  <text x="145" y="3572" font-family="Courier New, monospace" font-size="11" fill="#ffffff"> { peers: [council2, council3],</text>
+  <text x="120" y="3590" font-family="Courier New, monospace" font-size="11" fill="#ffffff">  gateways: federationGateways },</text>
+  <text x="100" y="3608" font-family="Courier New, monospace" font-size="11" fill="#90caf9">consensus:</text>
+  <text x="180" y="3608" font-family="Courier New, monospace" font-size="11" fill="#ffffff"> { quorum: 2, timeout: 30000 }</text>
+  <text x="80" y="3626" font-family="Courier New, monospace" font-size="11" fill="#ffffff">});</text>
+
+  <!-- ============================================ -->
+  <!-- SECTION 8: Key Metrics Comparison -->
+  <!-- ============================================ -->
+  <rect x="30" y="3700" width="840" height="60" fill="#e8eaf6" rx="8"/>
+  <text x="450" y="3738" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a237e" text-anchor="middle">
+    Key Metrics: v2.0 (36) vs v3.0 (1,164)
+  </text>
+
+  <!-- Metrics Table -->
+  <rect x="40" y="3780" width="820" height="340" fill="#ffffff" stroke="#000000" stroke-width="2" rx="8"/>
+
+  <!-- Table Header -->
+  <rect x="40" y="3780" width="820" height="35" fill="#0d47a1" rx="8"/>
+  <rect x="40" y="3800" width="820" height="15" fill="#0d47a1"/>
+  <text x="220" y="3803" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Metric</text>
+  <text x="470" y="3803" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">v2.0 (36 Agents)</text>
+  <text x="720" y="3803" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">v3.0 (1,164 Agents)</text>
+
+  <!-- Table Rows -->
+  <line x1="380" y1="3780" x2="380" y2="4120" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="600" y1="3780" x2="600" y2="4120" stroke="#e0e0e0" stroke-width="1"/>
+
+  <text x="60" y="3838" font-family="Arial, sans-serif" font-size="12" fill="#000000">Total Agents</text>
+  <text x="470" y="3838" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">36</text>
+  <text x="720" y="3838" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32" text-anchor="middle">1,164 (32x)</text>
+  <line x1="60" y1="3848" x2="840" y2="3848" stroke="#f5f5f5" stroke-width="1"/>
+
+  <text x="60" y="3868" font-family="Arial, sans-serif" font-size="12" fill="#000000">Hierarchy Depth</text>
+  <text x="470" y="3868" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">3 levels</text>
+  <text x="720" y="3868" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32" text-anchor="middle">5 levels</text>
+  <line x1="60" y1="3878" x2="840" y2="3878" stroke="#f5f5f5" stroke-width="1"/>
+
+  <text x="60" y="3898" font-family="Arial, sans-serif" font-size="12" fill="#000000">Fault Tolerance</text>
+  <text x="470" y="3898" font-family="Arial, sans-serif" font-size="12" fill="#c62828" text-anchor="middle">None (SPOF)</text>
+  <text x="720" y="3898" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32" text-anchor="middle">2-of-3 consensus + self-healing</text>
+  <line x1="60" y1="3908" x2="840" y2="3908" stroke="#f5f5f5" stroke-width="1"/>
+
+  <text x="60" y="3928" font-family="Arial, sans-serif" font-size="12" fill="#000000">Peer Communication</text>
+  <text x="470" y="3928" font-family="Arial, sans-serif" font-size="12" fill="#c62828" text-anchor="middle">None (hierarchy only)</text>
+  <text x="720" y="3928" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32" text-anchor="middle">Full mesh within federations</text>
+  <line x1="60" y1="3938" x2="840" y2="3938" stroke="#f5f5f5" stroke-width="1"/>
+
+  <text x="60" y="3958" font-family="Arial, sans-serif" font-size="12" fill="#000000">Security Auditing</text>
+  <text x="470" y="3958" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">3 sequential audits</text>
+  <text x="720" y="3958" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32" text-anchor="middle">148 agents, parallel across squads</text>
+  <line x1="60" y1="3968" x2="840" y2="3968" stroke="#f5f5f5" stroke-width="1"/>
+
+  <text x="60" y="3988" font-family="Arial, sans-serif" font-size="12" fill="#000000">Blast Radius</text>
+  <text x="470" y="3988" font-family="Arial, sans-serif" font-size="12" fill="#c62828" text-anchor="middle">100% (all 36 agents)</text>
+  <text x="720" y="3988" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32" text-anchor="middle">~11% max (1 federation)</text>
+  <line x1="60" y1="3998" x2="840" y2="3998" stroke="#f5f5f5" stroke-width="1"/>
+
+  <text x="60" y="4018" font-family="Arial, sans-serif" font-size="12" fill="#000000">Dynamic Scaling</text>
+  <text x="470" y="4018" font-family="Arial, sans-serif" font-size="12" fill="#c62828" text-anchor="middle">No (fixed 36)</text>
+  <text x="720" y="4018" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32" text-anchor="middle">Yes (squads auto-scale)</text>
+  <line x1="60" y1="4028" x2="840" y2="4028" stroke="#f5f5f5" stroke-width="1"/>
+
+  <text x="60" y="4048" font-family="Arial, sans-serif" font-size="12" fill="#000000">Monthly Cost</text>
+  <text x="470" y="4048" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">$500-$2,000</text>
+  <text x="720" y="4048" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#000000" text-anchor="middle">$500-$18,000 (tiered)</text>
+  <line x1="60" y1="4058" x2="840" y2="4058" stroke="#f5f5f5" stroke-width="1"/>
+
+  <text x="60" y="4078" font-family="Arial, sans-serif" font-size="12" fill="#000000">Projects/Month</text>
+  <text x="470" y="4078" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">3-100</text>
+  <text x="720" y="4078" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32" text-anchor="middle">15-700+</text>
+  <line x1="60" y1="4088" x2="840" y2="4088" stroke="#f5f5f5" stroke-width="1"/>
+
+  <text x="60" y="4108" font-family="Arial, sans-serif" font-size="12" fill="#000000">Revenue Potential</text>
+  <text x="470" y="4108" font-family="Arial, sans-serif" font-size="12" fill="#000000" text-anchor="middle">$6k-200k/month</text>
+  <text x="720" y="4108" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2e7d32" text-anchor="middle">$30k-$1.4M/month</text>
+
+  <!-- Footer -->
+  <rect x="30" y="4140" width="840" height="50" fill="#0d47a1" rx="8"/>
+  <text x="450" y="4172" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Aquatic HeirMesh v3.0 | Hierarchical-Federated-Mesh | 1,164 Agents | Claude Agent SDK
+  </text>
+</svg>
+            </div>
+
+            <div class="section-description">
+                <h3>What's Next:</h3>
+                <ul>
+                    <li><strong>Phase 1 (Current):</strong> Architecture documentation and visual guide (this page)</li>
+                    <li><strong>Phase 2:</strong> Build the runtime using Claude Agent SDK - agent instantiation, federation management, mesh communication</li>
+                    <li><strong>Phase 3:</strong> Enterprise features - multi-tenant federations, cross-org agent sharing, compliance automation, cost optimization</li>
+                    <li>Start with the 36-agent Starter tier and progressively add federations as you scale</li>
+                    <li>Each federation can be developed, tested, and deployed independently</li>
+                </ul>
+            </div>
+        </section>
+
         <!-- Footer -->
         <footer>
             <h3>🌊 Aquatic HeirMesh™</h3>
-            <p><strong>36-Agent Multi-Agent System</strong></p>
-            <p>Designer: Aquatic | Powered by Anthropic Claude</p>
-            <p>Version 2.0 | February 10, 2026</p>
+            <p><strong>1,164-Agent Hierarchical-Federated-Mesh System</strong></p>
+            <p>Designer: Aquatic | Powered by Anthropic Claude + Claude Agent SDK</p>
+            <p>Version 3.0 | March 13, 2026</p>
             <p style="margin-top: 20px; font-size: 0.95em;">
-                Complete production-grade AI infrastructure with automated security audits,<br>
-                GitHub integration, Vercel deployment, and real-time monitoring.
+                True hierarchical-federated-mesh architecture with consensus leadership,<br>
+                sovereign federations, peer-to-peer mesh, and dynamic scaling.
             </p>
             <p style="margin-top: 30px; font-size: 0.9em; opacity: 0.8;">
-                Built with: Anthropic Claude (Opus 4.6, Opus 4.5, Sonnet 4.5, Haiku 4.5)<br>
-                Docker | PostgreSQL | Redis | Node.js | React | WebSocket
+                Built with: Anthropic Claude (Opus 4.6, Opus 4.5, Sonnet 4.6, Sonnet 4.5, Haiku 4.5)<br>
+                Claude Agent SDK | Docker | PostgreSQL | Redis | Node.js | React | WebSocket
             </p>
         </footer>
     </div>
