@@ -2,7 +2,7 @@
 
 Complete interactive visual documentation for the **36-Agent Multi-Agent System** with production-grade AI infrastructure.
 
-![Version](https://img.shields.io/badge/version-2.0-blue)
+![Version](https://img.shields.io/badge/version-3.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Anthropic Claude](https://img.shields.io/badge/Powered%20by-Anthropic%20Claude-orange)
 
@@ -15,6 +15,11 @@ Aquatic HeirMesh™ is a production-grade multi-agent AI system featuring:
 - **Auto-Deployment**: GitHub + Vercel integration with domain purchasing
 - **Real-Time Monitoring**: Dual visualizer system (public + control)
 - **Complete Automation**: From project completion to live deployment in 25-30 minutes
+- **Claude Code CLI**: Agentic coding with hooks, slash commands, and MCP server support
+- **Connectors**: Native GitHub, Slack, and Linear integrations for workflow triggers
+- **Co-Work**: Multi-agent collaboration sessions with shared context
+- **Agent SDK**: Build custom agent architectures with tool use and handoffs
+- **MCP Servers**: Model Context Protocol for external data sources and tools
 
 ## 🚀 Quick Start
 
@@ -42,12 +47,12 @@ start index.html  # Windows
 
 ## 📖 What's Inside
 
-The visual guide includes 5 comprehensive infographics:
+The visual guide includes 6 comprehensive infographics:
 
 ### 1️⃣ System Architecture Overview
 - Complete 36-agent structure with hierarchical organization
 - Meta-Coordinator + 2 HeirMesh systems (Production & Validation)
-- Detailed agent roster with model assignments (Opus 4.6, 4.5, Sonnet 4.5, Haiku 4.5)
+- Detailed agent roster with model assignments (Opus 4.6, Sonnet 4.6, Sonnet 4.5, Haiku 4.5)
 - 3-level hierarchy: Lead → Groups → SubGroups
 
 ### 2️⃣ Security Pipeline & Deployment
@@ -77,6 +82,15 @@ The visual guide includes 5 comprehensive infographics:
 - **Phase 3 (2 hours)**: Cloud deployment - AWS, DNS, SSL
 - **Phase 4 (15 min)**: First project - send task, monitor, auto-deploy
 - Command-line examples and validation checks
+
+### 6️⃣ Claude Ecosystem Integration (NEW in v3.0)
+- **Updated Model Lineup**: Opus 4.6, Sonnet 4.6, Sonnet 4.5, Haiku 4.5 with model IDs
+- **Claude Code CLI**: Hooks, slash commands, CLAUDE.md, permission modes, IDE integrations
+- **Connectors**: GitHub (PR/issue automation), Slack (notifications), Linear (task management)
+- **Co-Work**: Shared context pools, cross-agent delegation, parallel review sessions
+- **Claude Agent SDK**: Agent classes, tool registration, handoff protocols, guardrails
+- **MCP Servers**: Data servers (PostgreSQL, Redis, S3), Tool servers (GitHub, Vercel, Docker), Security servers (OWASP, dependency audit)
+- **Integration Architecture**: End-to-end data flow from user task to deployed project
 
 ## 🛠️ Technology Stack
 
@@ -114,8 +128,8 @@ The visual guide includes 5 comprehensive infographics:
 ## 📦 Model Distribution (36-Agent System)
 
 - **5 × Opus 4.6**: Meta-Coordinator, Lead Agents, QA Lead, Security Auditors
-- **11 × Opus 4.5**: Architects, Developers, Security Specialists
-- **15 × Sonnet 4.5**: Specialists, Testing, Documentation
+- **11 × Sonnet 4.6**: Architects, Core Developers, Security Specialists
+- **13 × Sonnet 4.5**: Specialists, Testing, Documentation
 - **7 × Haiku 4.5**: Coordination, Integration, Metrics
 
 ## 💰 ROI Examples
@@ -179,8 +193,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - **Designer**: Aquatic
-- **Powered by**: Anthropic Claude (Opus 4.6, Opus 4.5, Sonnet 4.5, Haiku 4.5)
-- **Technology**: Docker, PostgreSQL, Redis, Node.js, React, WebSocket
+- **Powered by**: Anthropic Claude (Opus 4.6, Sonnet 4.6, Sonnet 4.5, Haiku 4.5)
+- **Technology**: Claude Code, Agent SDK, MCP, Docker, PostgreSQL, Redis, Node.js, React, WebSocket
 
 ## 📞 Contact & Support
 
@@ -189,8 +203,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Version**: 2.0  
-**Last Updated**: February 10, 2026  
+**Version**: 3.0
+**Last Updated**: March 14, 2026
 **Status**: Production Ready
 
 🌊 Built with passion by the Aquatic team
